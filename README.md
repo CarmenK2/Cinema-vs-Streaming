@@ -1,7 +1,7 @@
 # Cinema-vs-Streaming
 Project2 - Cinema vs Streaming
 
-Overview
+Overview:
 Are the good old cinemas still relevant?
 
 Data 
