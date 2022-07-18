@@ -21,7 +21,7 @@ var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Import Data
-d3.csv("scrap_streaming_fee.csv").then(function(streamingData) {
+d3.csv("../../Resources/scrap_streaming_fee.csv").then(function(streamingData) {
 
     // Step 1: Parse Data/Cast as numbers
     // ==============================
