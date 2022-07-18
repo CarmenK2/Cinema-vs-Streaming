@@ -56,21 +56,6 @@ var trace1 = {
     var total_gross = incomingData.Total_gross;
     var n01_movie = incomingData.N01_movie;
 
-    /*
-    var list = [];
-    years.index(2).forEach(function(a){
-        console.log(years[0])
-    });
-
-    console.log(list)
-
-    for (var k = 0; k < list.length; k++) {
-        otu_ids[k] = list[k].otu_ids;
-        sample_values[k] = list[k].sample_values;
-    }
-
-    */
-
     // Create charts 
 
       var xSavings = incomingData.map(row => row.Year);
@@ -197,8 +182,6 @@ var trace1 = {
       }
       
       Plotly.newPlot('bar', data, layout);
-
-    
 
 })
 
