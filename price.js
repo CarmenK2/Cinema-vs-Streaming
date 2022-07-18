@@ -67,14 +67,13 @@ d3.csv("scrap_streaming_fee.csv").then(function(streamingData) {
     .attr("opacity", ".4");
 
  
-
     // Step 6: Initialize tool tip
     // ==============================
     var toolTip = d3.tip()
       .attr("class", "tooltip")
       .offset([100, 70])
       .html(function(d) {
-        return (`${d.Provider}<br><br>Monthly Sub Fee: $${d.Monthly_sub_fee}<br>Simultaneous streams: ${d.Simultaneous_streams}`);
+        return (`${d.Provider} <br><br> <hr> Monthly Sub Fee: $${d.Monthly_sub_fee} <br> Simultaneous streams: ${d.Simultaneous_streams}`);
       });
 
     // Step 7: Create tooltip in the chart
@@ -113,7 +112,7 @@ d3.csv("scrap_streaming_fee.csv").then(function(streamingData) {
     chartGroup.append("text")
       .attr("transform", `translate(${width / 2}, ${height + margin.top + 30})`)
       .attr("class", "axisText")
-      .text("Minimum fee to see a movie ($)");
+      .text("Admission fee ($)");
   }).catch(function(error) {
     console.log(error);
   });
