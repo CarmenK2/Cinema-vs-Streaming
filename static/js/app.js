@@ -1,12 +1,16 @@
 d3.json("Resources/box_office_scrape.json").then((incomingData) => {
 
     // Trace1 for the Greek Data
-var trace1 = {
-    x: incomingData.map(row => row.Year),
-    y: incomingData.map(row => row.Releases),
-    text: incomingData.map(row => row.LY),
-    name: "Releases",
-    type: "bar"
+
+
+  console.log(incomingData.map(row => row.Year).slice(0,10))
+
+    var trace1 = {
+      x: incomingData.map(row => row.Year).slice(0,10),
+      y: incomingData.map(row => row.Releases).slice(0,10),
+      text: incomingData.map(row => row.LY).slice(0,10),
+      name: "Releases",
+      type: "bar"
   };
   
   /*
@@ -18,7 +22,7 @@ var trace1 = {
     name: "Roman",
     type: "bar"
   };
-  */
+  */  
   
   // Combining both traces
   var traceData = [trace1];
@@ -37,33 +41,35 @@ var trace1 = {
 
     //
 
-    console.log(incomingData[0]);
+    //console.log(incomingData[0]);
 
-    Object.keys(incomingData).forEach(key=> console.log(key.Year))
+    //Object.keys(incomingData).forEach(key=> console.log(key.Year))
 
-    incomingData.forEach((data) => {
+    //incomingData.forEach((data) => {
         // Get the entries for each object in the array
         Object.entries(data).forEach(([key, value]) => {
             // Log the key and value
-        console.log(`Key: ${key} and Value ${value}`);
+        //console.log(`Key: ${key} and Value ${value}`);
   });
 
-    })
+
+
+  // SECOND CHART
+
+  
 
     //List of box office releases every year
-    var releases = incomingData.Releases;
-    var years = incomingData.Year;
-    var total_gross = incomingData.Total_gross;
-    var n01_movie = incomingData.N01_movie;
+    //var releases = incomingData.Releases;
+    //var years = incomingData.Year;
+    //var total_gross = incomingData.Total_gross;
+    //var n01_movie = incomingData.N01_movie;
 
     // Create charts 
 
       var xSavings = incomingData.map(row => row.Year);
-      
       var xNetworth = incomingData.map(row => row.Year);
-      
-      var ySavings = incomingData.map(row => row.Year);
-      
+    
+      var ySavings = incomingData.map(row => row.Total_gross);
       var yNetworth = incomingData.map(row => row.Year);
       
       var trace1 = {
@@ -76,7 +82,7 @@ var trace1 = {
           color: 'rgba(50,171,96,0.6)',
           line: {
             color: 'rgba(50,171,96,1.0)',
-            width: 1
+            width: 2
           }
         },
         name: 'Household savings, percentage of household disposable income',
@@ -98,7 +104,7 @@ var trace1 = {
       var data = [trace1, trace2];
       
       var layout = {
-        title: 'Household Savings & Net Worth for Eight OECD Countries',
+        title: 'Years vs Revenue',
         xaxis1: {
           //range: [0, 20],
           domain: [0, 0.5],
@@ -115,7 +121,7 @@ var trace1 = {
           showticklabels: true,
           showgrid: true,
           side: 'top',
-          dtick: 25000
+          //dtick: 25000
         },
         legend: {
           x: 0.029,
@@ -138,8 +144,8 @@ var trace1 = {
           {
             xref: 'paper',
             yref: 'paper',
-            x: -0.2,
-            y: -0.109,
+            x: 0,
+            y: 100,
             text: 'OECD ' + '(2015), Household savings (indicator), ' + 'Household net worth (indicator). doi: ' + '10.1787/cfc6f499-en (Accessed on 05 June 2015)',
             showarrow: false,
             font:{
@@ -155,7 +161,7 @@ var trace1 = {
         var result = {
           xref: 'x1',
           yref: 'y1',
-          x: xSavings[i]+2.3,
+          x: xSavings[i],
           y: ySavings[i],
           text: xSavings[i] + '%',
           font: {
@@ -168,7 +174,7 @@ var trace1 = {
         var result2 = {
           xref: 'x2',
           yref: 'y1',
-          x: xNetworth[i] - 20000,
+          x: xNetworth[i],
           y: yNetworth[i],
           text: xNetworth[i] + ' M',
           font: {
@@ -181,9 +187,9 @@ var trace1 = {
         layout.annotations.push(result, result2);
       }
       
-      Plotly.newPlot('bar', data, layout);
+      Plotly.newPlot('chart-1', data, layout);
 
-})
+    })
 
 
 // Wrap every letter in a span
@@ -204,3 +210,4 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+
