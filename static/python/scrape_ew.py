@@ -30,8 +30,10 @@ def scrape_boxoffice():
 # df.reset_index().to_json("../../Resources/box_office_scrape.json",orient='records')
 
 #Subscriber data to df 
+ 
+
 def df_Nextlixsubs():
-    df = pd.read_excel("../../Resources/Netflix_subscribers_AP_2013-2020.xlsx")
+    df = pd.read_csv("../../Resources/Netflix_subscribers_AP_2013-2020.csv")
     return df
 
 def df_Cinemadata():
@@ -46,10 +48,9 @@ def df_Cinema1948():
     df = pd.read_csv("../../Resources/Cinemas1948_clean.csv")
     return df  
 
-
-def df_Cinema2020():
-    df = pd.read_csv("../../Resources/Cinemas2020_clean.csv")
-    return df  
+def df_Cinema2022():
+    df = pd.read_csv("../../Resources/Cinemas2022_clean.csv")
+    return df 
 
 #%% 
 
