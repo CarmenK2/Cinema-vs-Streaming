@@ -1,4 +1,4 @@
-// Chart Params hgfdhdgfh
+// Chart Params
 var svgWidth = 960;
 var svgHeight = 500;
 
