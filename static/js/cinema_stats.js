@@ -26,7 +26,9 @@ function yScale(cinemadata, selectedgroup) {
         .domain([d3.min(cinemadata, d => d[selectedgroup]),
         d3.max(cinemadata, d => d[selectedgroup]) * 1.10])
         .range([height, 0]);
+    
     return yLinearScale;
+
 }
 
 // function used for updating yAxis var upon click on axis label
@@ -38,12 +40,13 @@ function renderAxes(newYscale, yAxis) {
     return yAxis;
 }
 
-function renderLine(valueline, newYscale, selectedgroup) {
+function renderLine(valueline, yLinearScale, selectedgroup, xTimeScale) {
     valueline.transition()
         .duration(1000)
         .attr("d", d3.line()
-            .y(d => newYscale(d[selectedgroup])))
-
+            .x(d => xTimeScale(d.Year))
+            .y(d => yLinearScale(d[selectedgroup])))
+        .attr("stroke", "blue");
     return valueline;
 }
 
@@ -88,20 +91,12 @@ d3.csv("Resources/cinema_data.csv").then(function (cinemadata) {
 
 
     // Line generator
-    // var line1 = d3.line()
-    // .x(d => xTimeScale(d.Year))
-    //     .y(d => yLinearScale(d[selectedgroup]));
-    // chartGroup
-    // .append("path")
-    // .data([cinemadata])
-    // .attr("d", line1)
-    // .classed("line black", true);
 
     var valueline = d3.line()
         .x(d => xTimeScale(d.Year))
         .y(d => yLinearScale(d[selectedgroup]));
 
-    chartGroup.append("path")
+    var drawline = chartGroup.append("path")
         .data([cinemadata])
         .classed("line black", true)
         .attr("d", valueline);
@@ -138,11 +133,12 @@ d3.csv("Resources/cinema_data.csv").then(function (cinemadata) {
     labelsGroup.selectAll("text")
         .on("click", function () {
             var value = d3.select(this).attr("value");
-            if (value !== selectedgroup) {
+            if (value != selectedgroup) {
                 selectedgroup = value;
                 yLinearScale = yScale(cinemadata, selectedgroup);
                 yAxis = renderAxes(yLinearScale, yAxis);
-                valueline = renderLine(valueline, yLinearScale, selectedgroup);
+                drawline = renderLine(drawline, yLinearScale, selectedgroup, xTimeScale);
+                console.log(value);
             }
         });
 
