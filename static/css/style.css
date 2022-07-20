@@ -19,3 +19,20 @@
   fill: seagreen;
   text-anchor: middle;
 }
+p {
+  color: rgb(78, 93, 119);
+  font-family: Calibri;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 30px;
+  }
+
+  img{
+    margin-right: 30px;
+  }
+
+  .line {
+    fill: none;
+    stroke-width: 2px;
+    stroke:cadetblue;
+  }

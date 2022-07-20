@@ -9,7 +9,7 @@ var height = svgHeight - margin.top - margin.bottom;
 
 // Create an SVG wrapper, append an SVG group that will hold our chart, and shift the latter by left and top margins.
 var svg = d3
-    .select("body")
+    .select("#line_chart")
     .append("svg")
     .attr("width", svgWidth)
     .attr("height", svgHeight);
@@ -98,7 +98,7 @@ d3.csv("Resources/cinema_data.csv").then(function (cinemadata) {
 
     var drawline = chartGroup.append("path")
         .data([cinemadata])
-        .classed("line black", true)
+        .classed("line", true)
         .attr("d", valueline);
 
 
