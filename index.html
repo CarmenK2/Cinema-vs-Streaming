@@ -7,12 +7,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Cinema vs Streaming</title>
 
-   <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">CACE</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -24,19 +27,12 @@
           <a class="nav-link" href="cinema.html">Cinemas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="steraming.html">Streaming</a>
+          <a class="nav-link" href="streaming.html">Streaming</a>
         </li>
       </ul>
     </div>
   </nav>
 </head>
-
-
-<link rel="stylesheet" href="static/css/blank.css">
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
 
 <body>
 
@@ -45,15 +41,21 @@
       <div class="col-md-12 jumbotron text-center">
         <h1 class="ml6">
           <span class="text-wrapper">
-            <span class="letters">Cinemas or Streaming ?</span>
+            <span class="letters">Cinemas or Streaming?</span>
           </span>
         </h1>
-        <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div id="chart-3"></div>
+        <img class="vizualization rounded float-left" width="400px" height="300px" src="Images/HTML/movies.png" alt="movies">
+        <p>Back in the day if people wanted to watch the latest movie everyone else was talking about, they go to the
+          cinema with their family or friends. In case they did not make it on the movie schedule, they had to wait for
+          it to be available in their nearest video rental shop. </p>
+        <p>Nowadays due to technological improvement we have the option to use streaming services in the comfort of our
+          own homes to watch movies. This option gained more popularity when Covid happened as most people chose to stay
+          home and also restrictions were put in place on public spaces. This made us ask the question, are cinemas
+          still relevant?</p>
       </div>
     </div>
     <div class="row">
@@ -67,21 +69,20 @@
       <div class="col-md-5">
         <div id="chart-2"></div>
       </div>
-  </div>
-  
-  	<div class="chart">
-		</div>
-    
-    
-	<script src="https://d3js.org/d3.v5.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
-	<script type="text/javascript" src="./static/js/price.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="./static/js/app.js"></script>
-  <script src="./static/js/bonus.js"></script>
-  <script src="./Resources/box_office_scrape.json"></script>
-  
+    </div>
+
+
+
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+    <script type="text/javascript" src="./static/js/price.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="./static/js/app.js"></script>
+    <script src="./static/js/bonus.js"></script>
+    <script src="./Resources/box_office_scrape.json"></script>
+
 </body>
 
 

@@ -98,7 +98,7 @@ d3.csv("Resources/cinema_data.csv").then(function (cinemadata) {
 
     var drawline = chartGroup.append("path")
         .data([cinemadata])
-        .classed("line black", true)
+        .classed("line", true)
         .attr("d", valueline);
 
 
