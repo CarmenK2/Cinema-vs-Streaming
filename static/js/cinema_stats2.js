@@ -2,14 +2,14 @@
 var svgWidth = 960;
 var svgHeight = 500;
 
-var margin = { top: 20, right: 40, bottom: 60, left: 100 };
+var margin = { top: 20, right: 40, bottom: 80, left: 100 };
 
 var width = svgWidth - margin.left - margin.right;
 var height = svgHeight - margin.top - margin.bottom;
 
 // Create an SVG wrapper, append an SVG group that will hold our chart, and shift the latter by left and top margins.
 var svg = d3
-    .select("body")
+    .select("#line_chart")
     .append("svg")
     .attr("width", svgWidth)
     .attr("height", svgHeight);
@@ -98,7 +98,7 @@ d3.csv("Resources/cinema_data.csv").then(function (cinemadata) {
 
     var drawline = chartGroup.append("path")
         .data([cinemadata])
-        .classed("line black", true)
+        .classed("line", true)
         .attr("d", valueline);
 
 
@@ -106,25 +106,26 @@ d3.csv("Resources/cinema_data.csv").then(function (cinemadata) {
     // Append axes titles
     var labelsGroup = chartGroup.append("g")
     chartGroup.append("text")
-        .attr("transform", `translate(${width / 2}, ${height + 20})`);
+        .attr("transform", `translate(0, ${height})`)
+        .style("text-anchor", "middle");
 
     var theatreLabel = labelsGroup.append("text")
-        .attr("x", 0)
-        .attr("y", 15)
+        .attr("x", 150)
+        .attr("y", 450)
         .attr("value", "Theatres") // value to grab for event listener
         .classed("active", true)
         .text("Theatres");
 
     var screenLabel = labelsGroup.append("text")
-        .attr("x", 0)
-        .attr("y", 35)
+        .attr("x", 350)
+        .attr("y", 450)
         .attr("value", "Screens") // value to grab for event listener
         .classed("inactive", true)
         .text("Screens");
 
     var seatsLabel = labelsGroup.append("text")
-        .attr("x", 0)
-        .attr("y", 55)
+        .attr("x", 500)
+        .attr("y", 450)
         .attr("value", "Seats") // value to grab for event listener
         .classed("inactive", true)
         .text("Seats ('000)");
@@ -139,6 +140,39 @@ d3.csv("Resources/cinema_data.csv").then(function (cinemadata) {
                 yAxis = renderAxes(yLinearScale, yAxis);
                 drawline = renderLine(drawline, yLinearScale, selectedgroup, xTimeScale);
                 console.log(value);
+                if(selectedgroup == "Theatres"){
+                    theatreLabel
+                    .classed("active", true)
+                    .classed("inactive", false);
+                    screenLabel
+                    .classed("active", false)
+                    .classed("inactive", true);
+                    seatsLabel
+                    .classed("active", false)
+                    .classed("inactive", true);
+                }
+                if(selectedgroup == "Screens"){
+                    theatreLabel
+                    .classed("active", false)
+                    .classed("inactive", true);
+                    screenLabel
+                    .classed("active", true)
+                    .classed("inactive", false);
+                    seatsLabel
+                    .classed("active", false)
+                    .classed("inactive", true);
+                }
+                if(selectedgroup == "Seats"){
+                    theatreLabel
+                    .classed("active", false)
+                    .classed("inactive", true);
+                    screenLabel
+                    .classed("active", false)
+                    .classed("inactive", true);
+                    seatsLabel
+                    .classed("active", true)
+                    .classed("inactive", false);
+                }
             }
         });
 
