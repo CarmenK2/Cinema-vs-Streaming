@@ -76,7 +76,16 @@
 	<script type="text/javascript" src="./static/js/price.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="./static/js/app.js"></script>
+
+  <script>
+    const abc = "{{ mars }}"
+  </script>
+
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  
+
+
   <script src="./static/js/bonus.js"></script>
   <script src="./Resources/box_office_scrape.json"></script>
   

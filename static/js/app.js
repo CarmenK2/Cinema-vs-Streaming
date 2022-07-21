@@ -1,9 +1,18 @@
-d3.json("Resources/box_office_scrape.json").then((incomingData) => {
+const urls = [abc];
+
+Promise.all(urls.map(url => d3.json(url))).then(run);
+
+function run(dataset) {
+   ew_chart1(dataset[0]);
+};
+
+function ew_chart1(a) {
+  d3.json(a).then((incomingData) => {
 
     // Trace1 for the Greek Data
 
 
-  console.log(incomingData.map(row => row.Year).slice(0,10))
+  //console.log(incomingData.map(row => row.Year).slice(0,10))
 
     var trace1 = {
       x: incomingData.map(row => row.Year).slice(0,10),
@@ -11,18 +20,7 @@ d3.json("Resources/box_office_scrape.json").then((incomingData) => {
       text: incomingData.map(row => row.LY).slice(0,10),
       name: "Releases",
       type: "bar"
-  };
-  
-  /*
-  // Trace 2 for the Roman Data
-  var trace2 = {
-    x: incomingData.map(row => row.Year),
-    y: incomingData.map(row => row.Total_gross),
-    text: incomingData.map(row => row.romanName),
-    name: "Roman",
-    type: "bar"
-  };
-  */  
+    };
   
   // Combining both traces
   var traceData = [trace1];
@@ -47,12 +45,14 @@ d3.json("Resources/box_office_scrape.json").then((incomingData) => {
 
     //incomingData.forEach((data) => {
         // Get the entries for each object in the array
-        Object.entries(data).forEach(([key, value]) => {
+        //Object.entries(data).forEach(([key, value]) => {
             // Log the key and value
         //console.log(`Key: ${key} and Value ${value}`);
-  });
+  //})
+  })
+}
 
-
+ew_chart1(abc)
 
   // SECOND CHART
 
@@ -190,6 +190,7 @@ d3.json("Resources/box_office_scrape.json").then((incomingData) => {
       Plotly.newPlot('chart-1', data, layout);
 
     })
+  
 
 
 // Wrap every letter in a span
