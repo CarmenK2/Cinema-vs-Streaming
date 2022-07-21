@@ -23,7 +23,7 @@ d3.json("/test").then((incomingData) => {
   };
   
   // Render the plot to the div tag with id "plot"
-  Plotly.newPlot("chart-3", traceData, layout);
+  Plotly.newPlot("chart-ew", traceData, layout);
 
 });
 

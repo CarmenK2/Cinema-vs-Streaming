@@ -49,27 +49,24 @@
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
+
     <div class="row">
       <div class="col-md-12">
-        <div id="chart-3"></div>
+        <div id="chart-ah"></div>
       </div>
     </div>
+
     <div class="row">
-      <div class="col-md-2">
-        <div class="panel panel-primary">
-        </div>
+      <div class="col-md-12">
+        <div id="chart-ce"></div>
       </div>
-      <div class="col-md-5">
-        <div id="chart-1"></div>
-      </div>
-      <div class="col-md-5">
-        <div id="chart-2"></div>
-      </div>
+    </div>
+    
+      
   </div>
   
   	<div class="chart">
 		</div>
-    
     
 	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
@@ -77,17 +74,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-  <script>
-    const abc = "{{ mars }}"
-  </script>
-
-
-  <script src="{{ url_for('static', filename='js/ew_chart.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/cs_chart.js') }}"></script>
-
-
-
-  <!--<script src="{{ url_for('static', filename='js/price.js') }}"></script>-->
+  <!--<script src="{{ url_for('static', filename='js/ah_chart.js') }}"></script>-->
+  <script src="{{ url_for('static', filename='js/ce_chart.js') }}"></script>
   
 </body>
 
