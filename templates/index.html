@@ -32,10 +32,6 @@
   </nav>
 </head>
 
-
-<link rel="stylesheet" href="static/css/style.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
 <body>
 
   <div class="container">
@@ -43,51 +39,36 @@
       <div class="col-md-12 jumbotron text-center">
         <h1 class="ml6">
           <span class="text-wrapper">
-            <span class="letters">Cinemas or Streaming ?</span>
+            <span class="letters">Cinemas or Streaming?</span>
           </span>
         </h1>
-        <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div id="chart-3"></div>
+        <img class="vizualization rounded float-left" width="400px" height="300px" src="static/Resources/movies.png" alt="movies">
+        <p>Back in the day if people wanted to watch the latest movie everyone else was talking about, they go to the
+          cinema with their family or friends. In case they did not make it on the movie schedule, they had to wait for
+          it to be available in their nearest video rental shop. </p>
+        <p>Nowadays due to technological improvement we have the option to use streaming services in the comfort of our
+          own homes to watch movies. This option gained more popularity when Covid happened as most people chose to stay
+          home and also restrictions were put in place on public spaces. This made us ask the question, are cinemas
+          still relevant?</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-2">
-        <div class="panel panel-primary">
-        </div>
-      </div>
-      <div class="col-md-5">
-        <div id="chart-1"></div>
-      </div>
-      <div class="col-md-5">
-        <div id="chart-2"></div>
-      </div>
-  </div>
+
   
-  	<div class="chart">
-		</div>
-    
-    
+  <link rel="stylesheet" href="static/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
 	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
 	
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-  <script>
-    const abc = "{{ mars }}"
-  </script>
-
-
-  <script src="{{ url_for('static', filename='js/ew_chart.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/cs_chart.js') }}"></script>
-
-
-
-  <!--<script src="{{ url_for('static', filename='js/price.js') }}"></script>-->
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  
   
 </body>
 

@@ -37,7 +37,7 @@ def streaming():
     _data = mongo.db.collection.find_one()
     a = "static/Resources/box_office_scrape.json"
 
-    return render_template("streaming.html", mars=_data, titles = [0])
+    return render_template("streaming.html")
 
 @app.route("/cinema")
 def cinema():
@@ -75,7 +75,21 @@ def get_data1():
         print(col)
         x.append(col)
     return jsonify(x)
+
+@app.route('/ce_data')
+def get_data2():
+    # Declare the database
+    db = client.Cace_db
+    collection = db.cinemadata.find({}, {'_id': False})
+
+    x = []
+
+    for col in collection:
+        print(col)
+        x.append(col)
+    return jsonify(x)
     
+
 
 
 if __name__ == "__main__":
