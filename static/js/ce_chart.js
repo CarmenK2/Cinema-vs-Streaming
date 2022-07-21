@@ -9,7 +9,7 @@ var height = svgHeight - margin.top - margin.bottom;
 
 // Create an SVG wrapper, append an SVG group that will hold our chart, and shift the latter by left and top margins.
 var svg = d3
-    .select("#line_chart")
+    .select("#chart-ce")
     .append("svg")
     .attr("width", svgWidth)
     .attr("height", svgHeight);
@@ -51,7 +51,7 @@ function renderLine(valueline, yLinearScale, selectedgroup, xTimeScale) {
 }
 
 // Import data from an external CSV file
-d3.csv("Resources/cinema_data.csv").then(function (cinemadata) {
+d3.json("/ce_data").then(function (cinemadata) {
     console.log(cinemadata);
     var parseTime = d3.timeParse('%Y');
 

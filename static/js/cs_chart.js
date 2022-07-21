@@ -12,7 +12,7 @@ var width = svgWidth - margin.left - margin.right;
 var height = svgHeight - margin.top - margin.bottom;
 
 // Create an SVG wrapper, append an SVG group that will hold our chart, and shift the latter by left and top margins.
-var svg = d3.select(".chart")
+var svg = d3.select("#chart-cs")
   .append("svg")
   .attr("width", svgWidth)
   .attr("height", svgHeight);
@@ -21,7 +21,7 @@ var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Import Data
-d3.csv("../../Resources/scrap_streaming_fee.csv").then(function(streamingData) {
+d3.json("/cs_data").then(function(streamingData) {
 
     // Step 1: Parse Data/Cast as numbers
     // ==============================
