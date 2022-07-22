@@ -26,9 +26,8 @@ function yScale(cinemadata, selectedgroup) {
         .domain([d3.min(cinemadata, d => d[selectedgroup]),
         d3.max(cinemadata, d => d[selectedgroup]) * 1.10])
         .range([height, 0]);
-    
-    return yLinearScale;
 
+    return yLinearScale;
 }
 
 // function used for updating yAxis var upon click on axis label
@@ -49,6 +48,7 @@ function renderLine(valueline, yLinearScale, selectedgroup, xTimeScale) {
         .attr("stroke", "blue");
     return valueline;
 }
+
 
 // Import data from an external CSV file
 d3.json("/ce_data").then(function (cinemadata) {
@@ -102,7 +102,6 @@ d3.json("/ce_data").then(function (cinemadata) {
         .attr("d", valueline);
 
 
-
     // Append axes titles
     var labelsGroup = chartGroup.append("g")
     chartGroup.append("text")
@@ -130,6 +129,12 @@ d3.json("/ce_data").then(function (cinemadata) {
         .classed("inactive", true)
         .text("Seats ('000)");
 
+   chartGroup.append("text")
+        .text("Cinema Capacity Throughout the Years")
+        .attr("x", 300)
+        .attr("y", 15)
+        .classed("chart_title", true);
+
     //labels event listener
     labelsGroup.selectAll("text")
         .on("click", function () {
@@ -139,42 +144,43 @@ d3.json("/ce_data").then(function (cinemadata) {
                 yLinearScale = yScale(cinemadata, selectedgroup);
                 yAxis = renderAxes(yLinearScale, yAxis);
                 drawline = renderLine(drawline, yLinearScale, selectedgroup, xTimeScale);
-                console.log(value);
-                if(selectedgroup == "Theatres"){
+                
+                if (selectedgroup == "Theatres") {
                     theatreLabel
-                    .classed("active", true)
-                    .classed("inactive", false);
+                        .classed("active", true)
+                        .classed("inactive", false);
                     screenLabel
-                    .classed("active", false)
-                    .classed("inactive", true);
+                        .classed("active", false)
+                        .classed("inactive", true);
                     seatsLabel
-                    .classed("active", false)
-                    .classed("inactive", true);
+                        .classed("active", false)
+                        .classed("inactive", true);
                 }
-                if(selectedgroup == "Screens"){
+                if (selectedgroup == "Screens") {
                     theatreLabel
-                    .classed("active", false)
-                    .classed("inactive", true);
+                        .classed("active", false)
+                        .classed("inactive", true);
                     screenLabel
-                    .classed("active", true)
-                    .classed("inactive", false);
+                        .classed("active", true)
+                        .classed("inactive", false);
                     seatsLabel
-                    .classed("active", false)
-                    .classed("inactive", true);
+                        .classed("active", false)
+                        .classed("inactive", true);
                 }
-                if(selectedgroup == "Seats"){
+                if (selectedgroup == "Seats") {
                     theatreLabel
-                    .classed("active", false)
-                    .classed("inactive", true);
+                        .classed("active", false)
+                        .classed("inactive", true);
                     screenLabel
-                    .classed("active", false)
-                    .classed("inactive", true);
+                        .classed("active", false)
+                        .classed("inactive", true);
                     seatsLabel
-                    .classed("active", true)
-                    .classed("inactive", false);
+                        .classed("active", true)
+                        .classed("inactive", false);
                 }
             }
         });
+
 
 }).catch(function (error) {
     console.log(error);
