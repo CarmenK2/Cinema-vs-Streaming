@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cinema vs Streaming</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">CACE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cinema">Cinemas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="streaming">Streaming</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1 class="ml6">
+          <span class="text-wrapper">
+            <span class="letters">Cinemas or Streaming?</span>
+          </span>
+        </h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img class="vizualization rounded float-left" width="400px" height="300px" src="static/Resources/movies.png"
+            alt="movies">
+          <p>Back in the day if people wanted to watch the latest movie everyone else was talking about, they go to the
+            cinema with their family or friends. In case they did not make it on the movie schedule, they had to wait
+            for
+            it to be available in their nearest video rental shop. </p>
+          <p>Nowadays due to technological advancement we have the option to use streaming services in the comfort of
+            our
+            own homes to watch movies. This option gained more popularity when Covid happened as most people chose to
+            stay
+            home and also restrictions were put in place on public spaces. This made us ask the question, are cinemas
+            still relevant?</p>
+
+          <br>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Cinema Locations</h5>
+              <p class="card-text">The map shows the cinemas and their location.</p>
+              <a href="cinema" class="btn btn-secondary">View Map</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Cinema Capacity</h5>
+              <p class="card-text">This graph shows the number of theatres, screens, and seats throughout the years.
+                The numbers include drive-ins, as well as ‘non-commercial’ screens not generally open to the public, such as those
+                at army, naval and airforce bases, mining camps, film societies, colleges and universities.</p>
+              <a href="cinema" class="btn btn-secondary">View Graph</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Fees</h5>
+              <p class="card-text">This graph compares subscription fees on different streaming services vs. movie
+                ticket price.</p>
+              <a href="streaming" class="btn btn-secondary">View Graph</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Attendance Frequency vs.Subscribers</h5>
+              <p class="card-text">This graph shows the number of movies released, streaming services
+                subscribers and attendance frequency of cinema-goers throughout the years.</p>
+              <a href="streaming" class="btn btn-secondary">View Graph</a>
+            </div>
+          </div>
+          <br>
+          <h2>Conclusion</h2>
+          <p>It seems that the streaming services did not have much effect on people's preference on going to movies.
+            Data shows that cinemas available and movie-goers have been steady until Covid happened.
+            The pandemic is the main factor that affected the number of cinemas being open and people attending due to
+            the protocols and
+            restrictions put in place by the government. </p>
+          <p>With the easing of restrictions, the numbers have gone up compared to 2020 however
+            due to the uncertainty we have with further effects of Covid, we cannot confirm if it would continuously go
+            up the same level as pre-Covid.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+
+
+</body>
+
+
+</html>
