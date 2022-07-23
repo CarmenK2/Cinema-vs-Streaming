@@ -125,9 +125,13 @@ d3.json("/ah_data").then(function(fourtyEight) {
     // When the first API call is complete, perform another call mongo db extracting cinema2022 collection
     d3.json("/ah_data").then(function(twentyTwo) {
       // Extract cinema_type key to access cinema type using .map
-    var cinemaTwentyTwo = twentyTwo.map(cinemaTT => cinemaTT.cinema_type); 
+    var cinemaTwentyTwo = twentyTwo.filter((cinema) => cinema.cinema_type === "open"); 
     console.log(cinemaTwentyTwo);
+
+    var cinemaTwentyTwoTwo = twentyTwo.filter((cinema) => cinema.cinema_type === "closed"); 
+    console.log(cinemaTwentyTwoTwo);
     
+
     //var cinemaFourtyEight = fourtyEight.map(cinema => cinema.cinema_type);
     //console.log(cinemaFourtyEight);
       
@@ -147,16 +151,24 @@ d3.json("/ah_data").then(function(fourtyEight) {
         // Initialize a cinemaStatusCode, which will be used as a key to access the appropriate layers, icons, and station count for layer group
         var cinemaStatusCode;
 
-    
+        // Create a new cinema object with properties of both cinema objects
+        //var cinema = Object.assign({}, cinemaTwentyTwo[i], cinemaTwentyTwoTwo[i]);   
   
-      // Loop through the cinema_type in cinema2022 
-      //for (var i = 0; i < cinemaTwentyTwo.length; i++) {
+        // Loop through the cinema_type in cinema2022 
+        for (var i = 0; i < cinema; i++) {
 
-        // Create a cinema_type object for cinema2022 to loop through each cinema_type
+            // Create a new cinema object with properties of both cinema objects
+            var cinema = Object.assign({}, cinemaTwentyTwo[i], cinemaTwentyTwoTwo[i]); 
 
-        // Filter for "open"
+            // Filter for "open"
+            if (!cinema.cinemaTwentyTwo) {
+                cinemaStatusCode = "OPEN_2022";
+            }
 
-        // Filter for "closed"
+            // Filter for "closed"
+            else {
+                cinemaStatusCode = "CLOSED_2022";
+            }
 
         // Loop through cinema_type in cinema1948
         //for (var i = 0; i < cinemaFourtyEight.length; i++) {
@@ -180,37 +192,37 @@ d3.json("/ah_data").then(function(fourtyEight) {
         // Create a new cinema_type object with properties of both station objects
         //var cinema = Object.assign({}, cinemaInfo[i], cinemaStatus[i]);
         // If a station is listed but not installed, it's coming soon
-        if (!cinema.cinema_type) {
-          cinemaStatusCode = "OPEN_2022";
-        }
+        //if (!cinema.cinema_type) {
+          //cinemaStatusCode = "OPEN_2022";
+        //}
         // If a station has no bikes available, it's empty
-        else if (!cinema.cinema_type) {
-          cinemaStatusCode = "CLOSED_2022";
-        }
+        //else if (!cinema.cinema_type) {
+          //cinemaStatusCode = "CLOSED_2022";
+        //}
         // If a station is installed but isn't renting, it's out of order
-        else if (cinema.cinema_type) {
-          cinemaStatusCode = "DRIVE_IN_1948";
-        }
+        //else if (cinema.cinema_type) {
+          //cinemaStatusCode = "DRIVE_IN_1948";
+        //}
         // If a station has less than 5 bikes, it's status is low
-        else if (cinema.cinema_type) {
-          cinemaStatusCode = "DRIVE_IN_OPEN_AIR_1948";
-        }
+        //else if (cinema.cinema_type) {
+          //cinemaStatusCode = "DRIVE_IN_OPEN_AIR_1948";
+        //}
         // If a station has less than 5 bikes, it's status is low
-        else if (cinema.cinema_type) {
-            cinemaStatusCode = "INDOOR_OPEN_AIR_1948";
-        }
+        //else if (cinema.cinema_type) {
+            //cinemaStatusCode = "INDOOR_OPEN_AIR_1948";
+        //}
         // If a station has less than 5 bikes, it's status is low
-        else if (cinema.cinema_type) {
-            cinemaStatusCode = "INDOOR_1948";
-        }
+        //else if (cinema.cinema_type) {
+            //cinemaStatusCode = "INDOOR_1948";
+        //}
         // If a station has less than 5 bikes, it's status is low
-        else if (cinema.cinema_type) {
-            cinemaStatusCode = "OPEN_AIR_1948";
-        }
+        //else if (cinema.cinema_type) {
+            //cinemaStatusCode = "OPEN_AIR_1948";
+        //}
         // Otherwise the station is normal
-        else {
-          cinemaStatusCode = "TOURING_CIRCUIT_1948";
-        }
+        //else {
+          //cinemaStatusCode = "TOURING_CIRCUIT_1948";
+        //}
   
 
 
@@ -227,7 +239,7 @@ d3.json("/ah_data").then(function(fourtyEight) {
   
         // Bind a popup to the marker that will  display on click. This will be rendered as HTML
         newMarker.bindPopup(cinema.cinema_name + "<br> Street: " + cinema.street + "<br> Suburb:" + cinema.suburb);
-      });
+      };
   
     // Call the updateLegend function, which will... update the legend!
     updateLegend(cinemaCount);
@@ -248,3 +260,5 @@ d3.json("/ah_data").then(function(fourtyEight) {
       //"<p class='touring-circuit-1948'>Touring Circuit Cinema 1948-1971: " + cinemaCount.TOURING_CIRCUIT_1948 + "</p>"
     ].join("");
   };
+
+});
