@@ -125,11 +125,11 @@ d3.json("/ah_data").then(function(fourtyEight) {
     // When the first API call is complete, perform another call mongo db extracting cinema2022 collection
     d3.json("/ah_data").then(function(twentyTwo) {
       // Extract cinema_type key to access cinema type using .map
-    var cinemaTwentyTwo = twentyTwo.filter((cinema) => cinema.cinema_type === "open"); 
-    console.log(cinemaTwentyTwo);
+    //var cinemaTwentyTwo = twentyTwo.filter((cinema) => cinema.cinema_type === "open"); 
+    //console.log(cinemaTwentyTwo);
 
-    var cinemaTwentyTwoTwo = twentyTwo.filter((cinema) => cinema.cinema_type === "closed"); 
-    console.log(cinemaTwentyTwoTwo);
+    //var cinemaTwentyTwoTwo = twentyTwo.filter((cinema) => cinema.cinema_type === "closed"); 
+    //console.log(cinemaTwentyTwoTwo);
     
 
     //var cinemaFourtyEight = fourtyEight.map(cinema => cinema.cinema_type);
@@ -155,12 +155,12 @@ d3.json("/ah_data").then(function(fourtyEight) {
         //var cinema = Object.assign({}, cinemaTwentyTwo[i], cinemaTwentyTwoTwo[i]);   
   
         // Loop through the cinema_type in cinema2022 
-        for (var i = 0; i < cinema; i++) {
+        for (var i = 0; i < twentyTwo.length; i++) {
 
             // Create a new cinema object with properties of both cinema objects
-            var cinema = Object.assign({}, cinemaTwentyTwo[i], cinemaTwentyTwoTwo[i]); 
+            //var cinema = Object.assign({}, cinemaTwentyTwo[i], cinemaTwentyTwoTwo[i]); 
 
-            if (!cinema.cinemaTwentyTwo) {
+            if (twentyTwo.filter((cinema) => cinema.cinema_type === "open")) {
                 cinemaStatusCode = "OPEN_2022";
             }
 
