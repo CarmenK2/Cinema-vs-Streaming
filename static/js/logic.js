@@ -125,14 +125,16 @@ d3.json("static/data/cinema1948.json").then(function(fourtyEight) {
     // When the first API call is complete, perform another call mongo db extracting cinema2022 collection
     d3.json("static/data/cinema2022.json").then(function(twentyTwo) {
       // Extract cinema_type key to access cinema type using .map
-    var cinemaTwentyTwo = fourtyEight 
-      function print(data){
-        console.log(data);
-    }
-      var cinemaFourtyEight = twentyTwo
-      function print(data) {
-        console.log();
-      }
+    var cinemaTwentyTwo = twentyTwo.map(function(cinemaTT) {
+        return cinemaTT.cinema_type
+    }); 
+    console.log(cinemaTwentyTwo);
+    
+    var cinemaFourtyEight = fourtyEight.map(function(cinema){
+        return cinema.cinema_type
+    });
+    console.log(cinemaFourtyEight);
+      
 
       // Create an object to keep the number of markers in each layer
       var cinemaCount = {
