@@ -12,12 +12,12 @@ var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/
 var layers = {
     OPEN_2022: new L.LayerGroup(),
     CLOSED_2022: new L.LayerGroup(),
-    DRIVE_IN_1948: new L.LayerGroup(),
-    DRIVE_IN_OPEN_AIR_1948: new L.LayerGroup(),
-    INDOOR_OPEN_AIR_1948: new L.LayerGroup(),
-    INDOOR_1948: new L.LayerGroup(),
-    OPEN_AIR_1948: new L.LayerGroup(),
-    TOURING_CIRCUIT_1948: new L.LayerGroup()
+    //DRIVE_IN_1948: new L.LayerGroup(),
+    //DRIVE_IN_OPEN_AIR_1948: new L.LayerGroup(),
+    //INDOOR_OPEN_AIR_1948: new L.LayerGroup(),
+    //INDOOR_1948: new L.LayerGroup(),
+    //OPEN_AIR_1948: new L.LayerGroup(),
+    //TOURING_CIRCUIT_1948: new L.LayerGroup()
 };
   
 // Create the map with our layers
@@ -27,12 +27,12 @@ var map = L.map("map", {
     layers: [
       layers.OPEN_2022,
       layers.CLOSED_2022,
-      layers.DRIVE_IN_1948,
-      layers.DRIVE_IN_OPEN_AIR_1948,
-      layers.INDOOR_OPEN_AIR_1948,
-      layers.INDOOR_1948,
-      layers.OPEN_AIR_1948,
-      layers.TOURING_CIRCUIT_1948
+      //layers.DRIVE_IN_1948,
+      //layers.DRIVE_IN_OPEN_AIR_1948,
+      //layers.INDOOR_OPEN_AIR_1948,
+      //layers.INDOOR_1948,
+      //layers.OPEN_AIR_1948,
+      //layers.TOURING_CIRCUIT_1948
     ]
 });
   
@@ -43,12 +43,12 @@ lightmap.addTo(map);
 var overlays = {
     "Cinema Open 2022": layers.OPEN_2022,
     "Cinema Closed 2022": layers.CLOSED_2022,
-    "Drive-In Cinema 1948-1971": layers.DRIVE_IN_1948,
-    "Drive-In/Open Air Cinema 1948-1971": layers.DRIVE_IN_OPEN_AIR_1948,
-    "Indoor Open Air Cinema 1948-1971": layers.INDOOR_OPEN_AIR_1948,
-    "Indoor Cinema 1948-1971": layers.INDOOR_1948,
-    "Open Air Cinema 1948-1971": layers.OPEN_AIR_1948,
-    "Touring Circuit Cinema 1948-1971": layers.TOURING_CIRCUIT_1948
+    //"Drive-In Cinema 1948-1971": layers.DRIVE_IN_1948,
+    //"Drive-In/Open Air Cinema 1948-1971": layers.DRIVE_IN_OPEN_AIR_1948,
+    //"Indoor Open Air Cinema 1948-1971": layers.INDOOR_OPEN_AIR_1948,
+    //"Indoor Cinema 1948-1971": layers.INDOOR_1948,
+    //"Open Air Cinema 1948-1971": layers.OPEN_AIR_1948,
+    //"Touring Circuit Cinema 1948-1971": layers.TOURING_CIRCUIT_1948
   };
   
 // Create a control for our layers, add our overlay layers to it
@@ -81,80 +81,73 @@ var icons = {
       markerColor: "red",
       shape: "circle"
     }),
-    DRIVE_IN_1948: L.ExtraMarkers.icon({
-      icon: "ion-android-car",
-      iconColor: "white",
-      markerColor: "blue-dark",
-      shape: "circle"
-    }),
-    DRIVE_IN_OPEN_AIR_1948: L.ExtraMarkers.icon({
-      icon: "ion-android-car",
-      iconColor: "white",
-      markerColor: "orange",
-      shape: "circle"
-    }),
-    INDOOR_OPEN_AIR_1948: L.ExtraMarkers.icon({
-      icon: "ion-android-film",
-      iconColor: "white",
-      markerColor: "blue-light",
-      shape: "circle"
-    }),
-    INDOOR_1948: L.ExtraMarkers.icon({
-        icon: "ion-android-film",
-        iconColor: "white",
-        markerColor: "orange",
-        shape: "circle"
-    }),
-    OPEN_AIR_1948: L.ExtraMarkers.icon({
-        icon: "ion-android-videocam",
-        iconColor: "white",
-        markerColor: "purple",
-        shape: "circle"
-    }),
-    TOURING_CIRCUIT_1948: L.ExtraMarkers.icon({
-        icon: "ion-android-videocam",
-        iconColor: "white",
-        markerColor: "green-light",
-        shape: "circle"
-    })
+    //DRIVE_IN_1948: L.ExtraMarkers.icon({
+      //icon: "ion-android-car",
+      //iconColor: "white",
+      //markerColor: "blue-dark",
+      //shape: "circle"
+    //}),
+    //DRIVE_IN_OPEN_AIR_1948: L.ExtraMarkers.icon({
+      //icon: "ion-android-car",
+      //iconColor: "white",
+      //markerColor: "orange",
+      //shape: "circle"
+    //}),
+    //INDOOR_OPEN_AIR_1948: L.ExtraMarkers.icon({
+      //icon: "ion-android-film",
+      //iconColor: "white",
+      //markerColor: "blue-light",
+      //shape: "circle"
+    //}),
+    //INDOOR_1948: L.ExtraMarkers.icon({
+        //icon: "ion-android-film",
+        //iconColor: "white",
+        //markerColor: "orange",
+        //shape: "circle"
+    //}),
+    //OPEN_AIR_1948: L.ExtraMarkers.icon({
+        //icon: "ion-android-videocam",
+        //iconColor: "white",
+        //markerColor: "purple",
+        //shape: "circle"
+    //}),
+    //TOURING_CIRCUIT_1948: L.ExtraMarkers.icon({
+        //icon: "ion-android-videocam",
+        //iconColor: "white",
+        //markerColor: "green-light",
+        //shape: "circle"
+    //})
 };
   
-// Perform an API call to mongo db extracting cinema1948 collection
-d3.json("static/data/cinema1948.json").then(function(fourtyEight) {
+// Perform an API call to mongo db extracting cinema1948 collection - CHANGED TO cinema2022 DATA LINK TO TRY AND GET THE REST OF THE CODE WORKING
+d3.json("/ah_data").then(function(fourtyEight) {
   
     // When the first API call is complete, perform another call mongo db extracting cinema2022 collection
-    d3.json("static/data/cinema2022.json").then(function(twentyTwo) {
+    d3.json("/ah_data").then(function(twentyTwo) {
       // Extract cinema_type key to access cinema type using .map
     var cinemaTwentyTwo = twentyTwo.map(cinemaTT => cinemaTT.cinema_type); 
     console.log(cinemaTwentyTwo);
     
-    var cinemaFourtyEight = fourtyEight.map(cinema => cinema.cinema_type);
-    console.log(cinemaFourtyEight);
+    //var cinemaFourtyEight = fourtyEight.map(cinema => cinema.cinema_type);
+    //console.log(cinemaFourtyEight);
       
 
       // Create an object to keep the number of markers in each layer
       var cinemaCount = {
         OPEN_2022: 0,
         CLOSED_2022: 0,
-        DRIVE_IN_1948: 0,
-        DRIVE_IN_OPEN_AIR_1948: 0,
-        INDOOR_OPEN_AIR_1948: 0,
-        INDOOR_1948: 0,
-        OPEN_AIR_1948: 0,
-        TOURING_CIRCUIT_1948: 0
+        //DRIVE_IN_1948: 0,
+        //DRIVE_IN_OPEN_AIR_1948: 0,
+        //INDOOR_OPEN_AIR_1948: 0,
+        //INDOOR_1948: 0,
+        //OPEN_AIR_1948: 0,
+        //TOURING_CIRCUIT_1948: 0
         };
   
         // Initialize a cinemaStatusCode, which will be used as a key to access the appropriate layers, icons, and station count for layer group
         var cinemaStatusCode;
 
-        //var open = [];
-        //var closed = [];
-        //var driveIn = [];
-        //var driveInOpenAir = [];
-        //var indoor = [];
-        //var indoorOpenAir = [];
-        //var openAir = [],
-        //var touringCiruit = [];
+    
   
       // Loop through the cinema_type in cinema2022 
       //for (var i = 0; i < cinemaTwentyTwo.length; i++) {
@@ -168,9 +161,7 @@ d3.json("static/data/cinema1948.json").then(function(fourtyEight) {
         // Loop through cinema_type in cinema1948
         //for (var i = 0; i < cinemaFourtyEight.length; i++) {
         // Create a cinema_type object for cinema1948 to loop through each cinema_type
-        //cinemaFourtyEight.forEach(driveIn => {
-            //Object.
-        //})
+      
         // Filter for "Drive-In"
 
         // Filter for "Drive-in/Open Air Cinema"
@@ -249,11 +240,11 @@ d3.json("static/data/cinema1948.json").then(function(fourtyEight) {
       //"<p>Updated: " + moment.unix(time).format("h:mm:ss A") + "</p>",
       "<p class='open-2022'>Cinema Open 2022: " + cinemaCount.OPEN_2022 + "</p>",
       "<p class='closed-2022'>Cinema Closed 2022: " + cinemaCount.CLOSED_2022 + "</p>",
-      "<p class='drive-in-1948'>Drive-In Cinema 1948-1971: " + cinemaCount.DRIVE_IN_1948 + "</p>",
-      "<p class='drive-in-open-air-1948'>Drive-In/Open Air Cinema 1948-1971: " + cinemaCount.DRIVE_IN_OPEN_AIR_1948 + "</p>",
-      "<p class='indoor-open-air-1948'>Indoor Open Air Cinema 1948-1971: " + cinemaCount.INDOOR_OPEN_AIR_1948 + "</p>",
-      "<p class='indoor-1948'>Indoor Cinema 1948-1971: " + cinemaCount.INDOOR_1948 + "</p>",
-      "<p class='open-air-1948'>Open Air Cinema 1948-1971: " + cinemaCount.OPEN_AIR_1948 + "</p>",
-      "<p class='touring-circuit-1948'>Touring Circuit Cinema 1948-1971: " + cinemaCount.TOURING_CIRCUIT_1948 + "</p>"
+      //"<p class='drive-in-1948'>Drive-In Cinema 1948-1971: " + cinemaCount.DRIVE_IN_1948 + "</p>",
+      //"<p class='drive-in-open-air-1948'>Drive-In/Open Air Cinema 1948-1971: " + cinemaCount.DRIVE_IN_OPEN_AIR_1948 + "</p>",
+      //"<p class='indoor-open-air-1948'>Indoor Open Air Cinema 1948-1971: " + cinemaCount.INDOOR_OPEN_AIR_1948 + "</p>",
+      //"<p class='indoor-1948'>Indoor Cinema 1948-1971: " + cinemaCount.INDOOR_1948 + "</p>",
+      //"<p class='open-air-1948'>Open Air Cinema 1948-1971: " + cinemaCount.OPEN_AIR_1948 + "</p>",
+      //"<p class='touring-circuit-1948'>Touring Circuit Cinema 1948-1971: " + cinemaCount.TOURING_CIRCUIT_1948 + "</p>"
     ].join("");
   };
