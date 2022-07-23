@@ -1,18 +1,12 @@
-// Create a map object
-//var myMap = L.map("map", {
-    //center: [-25.27, 133.77],
-    //zoom: 5
-  //});
-  
-  // Add a tile layer
-  var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+// Add a tile layer
+var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
     attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
     tileSize: 512,
     maxZoom: 18,
     zoomOffset: -1,
     id: "mapbox/streets-v11",
     accessToken: API_KEY
-  })
+});
   
   // Initialize all of the LayerGroups we'll be using
 var layers = {
@@ -24,10 +18,10 @@ var layers = {
     INDOOR_1948: new L.LayerGroup(),
     OPEN_AIR_1948: new L.LayerGroup(),
     TOURING_CIRCUIT_1948: new L.LayerGroup()
-  };
+};
   
-  // Create the map with our layers
-  var map = L.map("map", {
+// Create the map with our layers
+var map = L.map("map", {
     center: [-25.27, 133.77],
     zoom: 5,
     layers: [
@@ -40,13 +34,13 @@ var layers = {
       layers.OPEN_AIR_1948,
       layers.TOURING_CIRCUIT_1948
     ]
-  });
+});
   
-  // Add our 'lightmap' tile layer to the map
-  lightmap.addTo(map);
+// Add our 'lightmap' tile layer to the map
+lightmap.addTo(map);
   
-  // Create an overlays object to add to the layer control
-  var overlays = {
+// Create an overlays object to add to the layer control
+var overlays = {
     "Cinema Open 2022": layers.OPEN_2022,
     "Cinema Closed 2022": layers.CLOSED_2022,
     "Drive-In Cinema 1948-1971": layers.DRIVE_IN_1948,
@@ -57,24 +51,24 @@ var layers = {
     "Touring Circuit Cinema 1948-1971": layers.TOURING_CIRCUIT_1948
   };
   
-  // Create a control for our layers, add our overlay layers to it
-  L.control.layers(null, overlays).addTo(map);
+// Create a control for our layers, add our overlay layers to it
+L.control.layers(null, overlays).addTo(map);
   
-  // Create a legend to display information about our map
-  var info = L.control({
+// Create a legend to display information about our map
+var info = L.control({
     position: "topright"
-  });
+});
   
-  // When the layer control is added, insert a div with the class of "legend"
-  info.onAdd = function() {
+// When the layer control is added, insert a div with the class of "legend"
+info.onAdd = function() {
     var div = L.DomUtil.create("div", "legend");
     return div;
-  };
-  // Add the info legend to the map
-  info.addTo(map);
+};
+// Add the info legend to the map
+info.addTo(map);
   
-  // Initialize an object containing icons for each layer group
-  var icons = {
+// Initialize an object containing icons for each layer group
+var icons = {
     OPEN_2022: L.ExtraMarkers.icon({
       icon: "ion-android-aperture",
       iconColor: "white",
@@ -123,18 +117,24 @@ var layers = {
         markerColor: "green-light",
         shape: "circle"
     })
-  };
+};
   
-  // Perform an API call to the Citi Bike Station Information endpoint
-  d3.json("static/data/cinema1948.json").then(function(fourtyEight) {
+// Perform an API call to mongo db extracting cinema1948 collection
+d3.json("static/data/cinema1948.json").then(function(fourtyEight) {
   
-    // When the first API call is complete, perform another call to the Citi Bike Station Status endpoint
+    // When the first API call is complete, perform another call mongo db extracting cinema2022 collection
     d3.json("static/data/cinema2022.json").then(function(twentyTwo) {
-      //var updatedAt = infoRes.last_updated;
-      var cinemaStatus = fourtyEight._id;
-      var cinemaInfo = twentyTwo._id;
-  
-      // Create an object to keep of the number of markers in each layer
+      // Extract cinema_type key to access cinema type using .map
+    var cinemaTwentyTwo = fourtyEight 
+      function print(data){
+        console.log(data);
+    }
+      var cinemaFourtyEight = twentyTwo
+      function print(data) {
+        console.log();
+      }
+
+      // Create an object to keep the number of markers in each layer
       var cinemaCount = {
         OPEN_2022: 0,
         CLOSED_2022: 0,
@@ -144,16 +144,41 @@ var layers = {
         INDOOR_1948: 0,
         OPEN_AIR_1948: 0,
         TOURING_CIRCUIT_1948: 0
-      };
+        };
   
-      // Initialize a stationStatusCode, which will be used as a key to access the appropriate layers, icons, and station count for layer group
-      var cinemaStatusCode;
+        // Initialize a cinemaStatusCode, which will be used as a key to access the appropriate layers, icons, and station count for layer group
+        var cinemaStatusCode;
   
-      // Loop through the stations (they're the same size and have partially matching data)
-      for (var i = 0; i < cinemaInfo.length; i++) {
+      // Loop through the cinema_type in cinema2022 
+      for (var i = 0; i < cinemaTwentyTwo.length; i++) {
+
+        // Create a cinema_type object for cinema2022 to loop through each cinema_type
+
+        // Filter for "open"
+
+        // Filter for "closed"
+
+        // Loop through cinema_type in cinema1948
+        for (var i = 0; i < cinemaFourtyEight.length; i++) {
+        // Create a cinema_type object for cinema1948 to loop through each cinema_type
+
+        // Filter for "Drive-In"
+
+        // Filter for "Drive-in/Open Air Cinema"
+        
+        // Filter for "Indoor Cinema"
+
+        // Filter for "Indoor/Open Air Cinema"
+                
+        // Filter for "Open Air Cinema"
+
+        // Filter for "Touring Circuit"
   
-        // Create a new station object with properties of both station objects
-        var cinema = Object.assign({}, cinemaInfo[i], cinemaStatus[i]);
+
+
+
+        // Create a new cinema_type object with properties of both station objects
+        //var cinema = Object.assign({}, cinemaInfo[i], cinemaStatus[i]);
         // If a station is listed but not installed, it's coming soon
         if (!cinema.cinema_type) {
           cinemaStatusCode = "OPEN_2022";
@@ -187,8 +212,11 @@ var layers = {
           cinemaStatusCode = "TOURING_CIRCUIT_1948";
         }
   
+
+
         // Update the station count
         cinemaCount[cinemaStatusCode]++;
+
         // Create a new marker with the appropriate icon and coordinates
         var newMarker = L.marker([cinema.latitude, cinema.longitude], {
           icon: icons[cinemaStatusCode]
@@ -201,9 +229,9 @@ var layers = {
         newMarker.bindPopup(cinema.cinema_name + "<br> Street: " + cinema.street + "<br> Suburb:" + cinema.suburb);
       }
   
-      // Call the updateLegend function, which will... update the legend!
-      updateLegend(cinemaCount);
-    });
+    // Call the updateLegend function, which will... update the legend!
+    updateLegend(cinemaCount);
+    };
   });
   
   // Update the legend's innerHTML with the last updated time and station count
@@ -219,5 +247,4 @@ var layers = {
       "<p class='open-air-1948'>Open Air Cinema 1948-1971: " + cinemaCount.OPEN_AIR_1948 + "</p>",
       "<p class='touring-circuit-1948'>Touring Circuit Cinema 1948-1971: " + cinemaCount.TOURING_CIRCUIT_1948 + "</p>"
     ].join("");
-  }
-  
+  }});
