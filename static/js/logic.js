@@ -125,14 +125,10 @@ d3.json("static/data/cinema1948.json").then(function(fourtyEight) {
     // When the first API call is complete, perform another call mongo db extracting cinema2022 collection
     d3.json("static/data/cinema2022.json").then(function(twentyTwo) {
       // Extract cinema_type key to access cinema type using .map
-    var cinemaTwentyTwo = twentyTwo.map(function(cinemaTT) {
-        return cinemaTT.cinema_type
-    }); 
+    var cinemaTwentyTwo = twentyTwo.map(cinemaTT => cinemaTT.cinema_type); 
     console.log(cinemaTwentyTwo);
     
-    var cinemaFourtyEight = fourtyEight.map(function(cinema){
-        return cinema.cinema_type
-    });
+    var cinemaFourtyEight = fourtyEight.map(cinema => cinema.cinema_type);
     console.log(cinemaFourtyEight);
       
 
@@ -150,9 +146,18 @@ d3.json("static/data/cinema1948.json").then(function(fourtyEight) {
   
         // Initialize a cinemaStatusCode, which will be used as a key to access the appropriate layers, icons, and station count for layer group
         var cinemaStatusCode;
+
+        //var open = [];
+        //var closed = [];
+        //var driveIn = [];
+        //var driveInOpenAir = [];
+        //var indoor = [];
+        //var indoorOpenAir = [];
+        //var openAir = [],
+        //var touringCiruit = [];
   
       // Loop through the cinema_type in cinema2022 
-      for (var i = 0; i < cinemaTwentyTwo.length; i++) {
+      //for (var i = 0; i < cinemaTwentyTwo.length; i++) {
 
         // Create a cinema_type object for cinema2022 to loop through each cinema_type
 
@@ -161,9 +166,11 @@ d3.json("static/data/cinema1948.json").then(function(fourtyEight) {
         // Filter for "closed"
 
         // Loop through cinema_type in cinema1948
-        for (var i = 0; i < cinemaFourtyEight.length; i++) {
+        //for (var i = 0; i < cinemaFourtyEight.length; i++) {
         // Create a cinema_type object for cinema1948 to loop through each cinema_type
-
+        //cinemaFourtyEight.forEach(driveIn => {
+            //Object.
+        //})
         // Filter for "Drive-In"
 
         // Filter for "Drive-in/Open Air Cinema"
@@ -229,12 +236,12 @@ d3.json("static/data/cinema1948.json").then(function(fourtyEight) {
   
         // Bind a popup to the marker that will  display on click. This will be rendered as HTML
         newMarker.bindPopup(cinema.cinema_name + "<br> Street: " + cinema.street + "<br> Suburb:" + cinema.suburb);
-      }
+      });
   
     // Call the updateLegend function, which will... update the legend!
     updateLegend(cinemaCount);
-    };
-  });
+    });
+
   
   // Update the legend's innerHTML with the last updated time and station count
   function updateLegend(cinemaCount) {
@@ -249,4 +256,4 @@ d3.json("static/data/cinema1948.json").then(function(fourtyEight) {
       "<p class='open-air-1948'>Open Air Cinema 1948-1971: " + cinemaCount.OPEN_AIR_1948 + "</p>",
       "<p class='touring-circuit-1948'>Touring Circuit Cinema 1948-1971: " + cinemaCount.TOURING_CIRCUIT_1948 + "</p>"
     ].join("");
-  }});
+  };
