@@ -160,7 +160,6 @@ d3.json("/ah_data").then(function(fourtyEight) {
             // Create a new cinema object with properties of both cinema objects
             var cinema = Object.assign({}, cinemaTwentyTwo[i], cinemaTwentyTwoTwo[i]); 
 
-            // Filter for "open"
             if (!cinema.cinemaTwentyTwo) {
                 cinemaStatusCode = "OPEN_2022";
             }
