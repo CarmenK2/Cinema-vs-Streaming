@@ -112,7 +112,6 @@ d3.json("/cs_data").then(function(streamingData) {
       .attr("dy", "1em")
       .attr("class", "axisText")
       .text("Number of Simultaneous Streams");
-      
 
     chartGroup.append("text")
       .attr("transform", `translate(${width / 2}, ${height + margin.top + 30})`)
