@@ -148,7 +148,7 @@ d3.json("/ah_data").then(function(fourtyEight) {
         //TOURING_CIRCUIT_1948: 0
         };
   
-        // Initialize a cinemaStatusCode, which will be used as a key to access the appropriate layers, icons, and station count for layer group
+        // Initialize a cinemaStatusCode, which will be used as a key to access the appropriate layers, icons, and cinema count for layer group
         var cinemaStatusCode;
 
         // Create a new cinema object with properties of both cinema objects
@@ -160,7 +160,7 @@ d3.json("/ah_data").then(function(fourtyEight) {
             // Create a new cinema object with properties of both cinema objects
             //var cinema = Object.assign({}, cinemaTwentyTwo[i], cinemaTwentyTwoTwo[i]); 
 
-            if (twentyTwo.filter((cinema) => cinema.cinema_type === "open")) {
+            if (!twentyTwo.filter((cinema) => cinema.cinema_type === "open")) {
                 cinemaStatusCode = "OPEN_2022";
             }
 
@@ -225,7 +225,7 @@ d3.json("/ah_data").then(function(fourtyEight) {
   
 
 
-        // Update the station count
+        // Update the cinema count
         cinemaCount[cinemaStatusCode]++;
 
         // Create a new marker with the appropriate icon and coordinates
@@ -245,7 +245,7 @@ d3.json("/ah_data").then(function(fourtyEight) {
     });
 
   
-  // Update the legend's innerHTML with the last updated time and station count
+  // Update the legend's innerHTML with cinema count
   function updateLegend(cinemaCount) {
     document.querySelector(".legend").innerHTML = [
       //"<p>Updated: " + moment.unix(time).format("h:mm:ss A") + "</p>",
