@@ -77,6 +77,19 @@ d3.json("/ah_data").then(function(twentyTwo) {
         CLOSED_2022: 0
     };
 
+
+    // var result = twentyTwo.map(cinema=>{
+    //     return cinema.lat
+    // })
+    // console.log(result);
+
+    twentyTwo.forEach(function(data){
+        cinematestlat = data.lat
+        cinematestlong= data.long
+        console.log(cinematestlong);
+    })
+    
+   
     // Initialize a cinemaStatusCode, which will be used as a key to access the appropriate layers, icons, and cinema count for layer group
     var cinemaStatusCode;
 
