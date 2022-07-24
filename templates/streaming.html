@@ -14,7 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
   <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="/">CACE</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,17 +52,47 @@
             <span class="letters">Cinemas or Streaming?</span>
           </span>
         </h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <p style="text-align:center; color: white; font-size: 18px;">Use the interactive charts below to explore the
+          dataset</p>
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-12">
+        <h4 style="font-size: 15px; text-align: center; font-style: italic;">Cinmea ticket price vs streaming price</h4>
         <div id="chart-cs"></div>
+<<<<<<< HEAD
+        <br>
+        <h4 style="font-size: 15px; text-align: center; font-style: italic;">Move your curser to the circel lable to
+          display info</h4>
+        <br>
+        <p>According Screen Australia, the average cinema ticket price was $15.24 in 2021. There are plenty of fee for
+          streaming platforms to compete for the eyeball. This chart compares the streaming provider's fee and their
+          number of simultanceous streams. In terms of pricing, cinema ticket price is definitely competitive and not
+          the reason cinema-goers goers will be detered by. The restriction and health protocool does excelerate the
+          adoption of signing up streaming services while we cannot phyiscally go to cinema. Online streaming offerings
+          and Cinemas are not muturally exclusive options. Whilst online streaming does introduce competition, but it
+          can never replace the cinema experience. Consumers utlimatly have the benefit of choosing their interested
+          content and make switches whenever they want.</p>
+        <hr>  
+=======
         <p>According Screen Australia, the average cinema ticket price was $15.24 in 2021. There are plenty of fee for streaming platforms to compete for the eyeball. This chart compares the streaming provider's fee and their number of simultanceous streams.
           In terms of pricing, cinema ticket price is definitely competitive and not the reason cinema-goers goers will be detered by. The restriction and health protocool does excelerate the adoption of signing up streaming services while we cannot phyiscally go to cinema. 
           Online streaming offerings and Cinemas are not muturally exclusive options. Whilst online streaming does introduce competition, but it can never replace the cinema experience. Consumers utlimatly have the benefit of choosing their interested content and make switches whenever they want.
 
         </p>
+>>>>>>> 1b3b7d90f42bbca3415b739128524b4197d882c1
       </div>
     </div>
     <div class="row">
@@ -83,7 +113,7 @@
 
     <script src="{{ url_for('static', filename='js/cs_chart.js') }}"></script>
     <script src="{{ url_for('static', filename='js/ew_chart.js') }}"></script>
-
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 
 
     <!--<script src="{{ url_for('static', filename='js/price.js') }}"></script>-->

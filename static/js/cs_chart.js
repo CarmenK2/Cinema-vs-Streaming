@@ -77,7 +77,11 @@ d3.json("/cs_data").then(function(streamingData) {
       .attr("class", "tooltip")
       .offset([50, 70])
       .html(function(d) {
+<<<<<<< HEAD
+        return (`${d.Provider}<hr>Fee: $${d.Monthly_sub_fee}<br> Simultaneous streams: ${d.Simultaneous_streams}`);
+=======
         return (`${d.Provider}<hr> Monthly Sub Fee: $${d.Monthly_sub_fee} <br> Simultaneous streams: ${d.Simultaneous_streams}`);
+>>>>>>> 1b3b7d90f42bbca3415b739128524b4197d882c1
       });
 
     // Step 7: Create tooltip in the chart
