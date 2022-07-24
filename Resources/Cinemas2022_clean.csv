@@ -1,889 +1,889 @@
-index,Cinema name,Cinema address,long,lat,Cinema Status
-0,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-1,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-2,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-3,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-4,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-5,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-6,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-7,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-8,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-9,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-10,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-11,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-12,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-13,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-14,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-15,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-16,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-17,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-18,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-19,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-20,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-21,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-22,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-23,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-24,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-25,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-26,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-27,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-28,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-29,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-30,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-31,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-32,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-33,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-34,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-35,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-36,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-37,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-38,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-39,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-40,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-41,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-42,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-43,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-44,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-45,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-46,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-47,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-48,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-49,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-50,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-51,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-52,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-53,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-54,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-55,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-56,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-57,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-58,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-59,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-60,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-61,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-62,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-63,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-64,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-65,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-66,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-67,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-68,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-69,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-70,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-71,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-72,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-73,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-74,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-75,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-76,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-77,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-78,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-79,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-80,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-81,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-82,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-83,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-84,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-85,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-86,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-87,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-88,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-89,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-90,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-91,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-92,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-93,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-94,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-95,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-96,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-97,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-98,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-99,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-100,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-101,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-102,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-103,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-104,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-105,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-106,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-107,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-108,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-109,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-110,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-111,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-112,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-113,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-114,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-115,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-116,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-117,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-118,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-119,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-120,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-121,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-122,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-123,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-124,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-125,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-126,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-127,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-128,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-129,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-130,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-131,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-132,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-133,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-134,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-135,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-136,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-137,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-138,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-139,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-140,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-141,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-142,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-143,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-144,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-145,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-146,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-147,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-148,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-149,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-150,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-151,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-152,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-153,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-154,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-155,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-156,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-157,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-158,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-159,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-160,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-161,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-162,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-163,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-164,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-165,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-166,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-167,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-168,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-169,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-170,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-171,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-172,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-173,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-174,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-175,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-176,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-177,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-178,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-179,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-180,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-181,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-182,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-183,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-184,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-185,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-186,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-187,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-188,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-189,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-190,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-191,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-192,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-193,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-194,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-195,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-196,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-197,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-198,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-199,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-200,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-201,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-202,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-203,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-204,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-205,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-206,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-207,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-208,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-209,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-210,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-211,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-212,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-213,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-214,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-215,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-216,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-217,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-218,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-219,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-220,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-221,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-222,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-223,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-224,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-225,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-226,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-227,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-228,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-229,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-230,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-231,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-232,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-233,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-234,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-235,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-236,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-237,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-238,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-239,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-240,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-241,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-242,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-243,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-244,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-245,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-246,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-247,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-248,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-249,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-250,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-251,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-252,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-253,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-254,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-255,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-256,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-257,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-258,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-259,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-260,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-261,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-262,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-263,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-264,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-265,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-266,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-267,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-268,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-269,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-270,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-271,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-272,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-273,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-274,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-275,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-276,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-277,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-278,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-279,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-280,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-281,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-282,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-283,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-284,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-285,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-286,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-287,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-288,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-289,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-290,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-291,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-292,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-293,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-294,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-295,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-296,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-297,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-298,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-299,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-300,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-301,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-302,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-303,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-304,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-305,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-306,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-307,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-308,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-309,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-310,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-311,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-312,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-313,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-314,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-315,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-316,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-317,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-318,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-319,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-320,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-321,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-322,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-323,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-324,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-325,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-326,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-327,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-328,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-329,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-330,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-331,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-332,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-333,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-334,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-335,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-336,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-337,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-338,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-339,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-340,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-341,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-342,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-343,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-344,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-345,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-346,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-347,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-348,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-349,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-350,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-351,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-352,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-353,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-354,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-355,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-356,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-357,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-358,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-359,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-360,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-361,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-362,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-363,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-364,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-365,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-366,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-367,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-368,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-369,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-370,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-371,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-372,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-373,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-374,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-375,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-376,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-377,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-378,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-379,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-380,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-381,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-382,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-383,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-384,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-385,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-386,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-387,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-388,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-389,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-390,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-391,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-392,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-393,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-394,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-395,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-396,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-397,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-398,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-399,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-400,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-401,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-402,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-403,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-404,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-405,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-406,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-407,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-408,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-409,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-410,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-411,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-412,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-413,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-414,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-415,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-416,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-417,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-418,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-419,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-420,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-421,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-422,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-423,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-424,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-425,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-426,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-427,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-428,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-429,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-430,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-431,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-432,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-433,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-434,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-435,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-436,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-437,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-438,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-439,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-440,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-441,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-442,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-443,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-444,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-445,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-446,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-447,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-448,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-449,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-450,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-451,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-452,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-453,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-454,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-455,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-456,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-457,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-458,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-459,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-460,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-461,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-462,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-463,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-464,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-465,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-466,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-467,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-468,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-469,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-470,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-471,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-472,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-473,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-474,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-475,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-476,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-477,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-478,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-479,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-480,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-481,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-482,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-483,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-484,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-485,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-486,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-487,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-488,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-489,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-490,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-491,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-492,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-493,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-494,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-495,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-496,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-497,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-498,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-499,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-500,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-501,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-502,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-503,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-504,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-505,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-506,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-507,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-508,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-509,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-510,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-511,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-512,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-513,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-514,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-515,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-516,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-517,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-518,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-519,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-520,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-521,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-522,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-523,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-524,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-525,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-526,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-527,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-528,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-529,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-530,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-531,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-532,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-533,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-534,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-535,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-536,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-537,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-538,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-539,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-540,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-541,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-542,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-543,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-544,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-545,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-546,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-547,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-548,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-549,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-550,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-551,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-552,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-553,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-554,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-555,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-556,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-557,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-558,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-559,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-560,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-561,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-562,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-563,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-564,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-565,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-566,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-567,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-568,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-569,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-570,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-571,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-572,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-573,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-574,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-575,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-576,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-577,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-578,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-579,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-580,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-581,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-582,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-583,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-584,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-585,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-586,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-587,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-588,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-589,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-590,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-591,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-592,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-593,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-594,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-595,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-596,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-597,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-598,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-599,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-600,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-601,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-602,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-603,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-604,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-605,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-606,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-607,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-608,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-609,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-610,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-611,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-612,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-613,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-614,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-615,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-616,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-617,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-618,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-619,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-620,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-621,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-622,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-623,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-624,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-625,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-626,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-627,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-628,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-629,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-630,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-631,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-632,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-633,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-634,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-635,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-636,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-637,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-638,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-639,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-640,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-641,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-642,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-643,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-644,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-645,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-646,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-647,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-648,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-649,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-650,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-651,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-652,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-653,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-654,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-655,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-656,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-657,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-658,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-659,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-660,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-661,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-662,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-663,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-664,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-665,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-666,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-667,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-668,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-669,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-670,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-671,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-672,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-673,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-674,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-675,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-676,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-677,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-678,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-679,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-680,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-681,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-682,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-683,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-684,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-685,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-686,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-687,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-688,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-689,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-690,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-691,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-692,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-693,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-694,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-695,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-696,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-697,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-698,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-699,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-700,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-701,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-702,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-703,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-704,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-705,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-706,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-707,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-708,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-709,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-710,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-711,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-712,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-713,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-714,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-715,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-716,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-717,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-718,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-719,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-720,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-721,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-722,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-723,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-724,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-725,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-726,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-727,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-728,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-729,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-730,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-731,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-732,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-733,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-734,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-735,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-736,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-737,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-738,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-739,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-740,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-741,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-742,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-743,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-744,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-745,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-746,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-747,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-748,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-749,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-750,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-751,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-752,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-753,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-754,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-755,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-756,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-757,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-758,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-759,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-760,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-761,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-762,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-763,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-764,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-765,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-766,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-767,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-768,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-769,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-770,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-771,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-772,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-773,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-774,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-775,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-776,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-777,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-778,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-779,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-780,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-781,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-782,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-783,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-784,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-785,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-786,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-787,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-788,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-789,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-790,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-791,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-792,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-793,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-794,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-795,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-796,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-797,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-798,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-799,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-800,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-801,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-802,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-803,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-804,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-805,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-806,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-807,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-808,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-809,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-810,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-811,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-812,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-813,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-814,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-815,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-816,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-817,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-818,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-819,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-820,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-821,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-822,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-823,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-824,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-825,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-826,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-827,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-828,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-829,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-830,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-831,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-832,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-833,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-834,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-835,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-836,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-837,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-838,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-839,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-840,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-841,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-842,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-843,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-844,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-845,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-846,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-847,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-848,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-849,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-850,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-851,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-852,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-853,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-854,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-855,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-856,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-857,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-858,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-859,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-860,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-861,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-862,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-863,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-864,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-865,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-866,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-867,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-868,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-869,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-870,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-871,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-872,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-873,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-874,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-875,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
-876,1812 Theatre,"1-3 Rose Street<br>Melbourne, VIC 3156<br>Australia<br>+61-03-9758-3964<br>",145.3107163,-37.8941003,open
-877,ASO Grainger Studio,"91 Hindley Street<br>Adelaide, SA 5000<br>Australia<br>+61-08-8233-6233<br>",138.595823,-34.92337,closed
-878,Academy Twin Cinemas,"3A Oxford Street<br>Sydney, NSW 2021<br>Australia<br>",151.21949,-33.881906,closed
-879,Ace Cinemas Rockingham,"1 Syren Street<br>Rockingham, WA 6168<br>Australia<br>+61-8-9550-9000<br>",115.7483092,-32.288672,open
-880,Ace Midland Gate Cinema,"Great Eastern Highway<br>Midland, WA 6056<br>Australia<br>+61(0)8-9250-2620<br>",116.0119137,-31.8916168,open
-881,Aceway Drive-in,"Beechboro Road N. and Benara Road<br>Morley, WA 6062<br>Australia<br>",115.9249162,-31.8755893,closed
-882,Addison Theatre,"93 Addison Road<br>Sydney, NSW 2204<br>Australia<br>",151.1646173,-33.9026903,closed
-883,Adelphi Theatre,"367 Nicholson Street<br>Melbourne, VIC 3054<br>Australia<br>",144.9759243,-37.7913005,closed
-884,Agricultural Hall,"21 Victoria Road<br>Mingenew, WA 6522<br>Australia<br>",115.4417026,-29.1924326,closed
-885,Albany Entertainment Centre,"2 Toll Place<br>Albany, WA 6330<br>Australia<br>",117.8859423,-35.0292594,open
-886,Alexander Theatre,"Wellington Road<br>Melbourne, VIC 3800<br>Australia<br>",145.1340467,-37.9153572,closed
-887,Alexandra Hall,"Collings Street<br>Ararat, VIC 3377<br>Australia<br>",142.9295452,-37.2821595,closed
+cinema_name,street,suburb,longitude,latitude,cinema_type
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed
+1812 Theatre,1-3 Rose Street,"Melbourne, VIC 3156",145.3107163,-37.8941003,open
+ASO Grainger Studio,91 Hindley Street,"Adelaide, SA 5000",138.595823,-34.92337,closed
+Academy Twin Cinemas,3A Oxford Street,"Sydney, NSW 2021",151.21949,-33.881906,closed
+Ace Cinemas Rockingham,1 Syren Street,"Rockingham, WA 6168",115.7483092,-32.288672,open
+Ace Midland Gate Cinema,Great Eastern Highway,"Midland, WA 6056",116.0119137,-31.8916168,open
+Aceway Drive-in,Beechboro Road N. and Benara Road,"Morley, WA 6062",115.9249162,-31.8755893,closed
+Addison Theatre,93 Addison Road,"Sydney, NSW 2204",151.1646173,-33.9026903,closed
+Adelphi Theatre,367 Nicholson Street,"Melbourne, VIC 3054",144.9759243,-37.7913005,closed
+Agricultural Hall,21 Victoria Road,"Mingenew, WA 6522",115.4417026,-29.1924326,closed
+Albany Entertainment Centre,2 Toll Place,"Albany, WA 6330",117.8859423,-35.0292594,open
+Alexander Theatre,Wellington Road,"Melbourne, VIC 3800",145.1340467,-37.9153572,closed
+Alexandra Hall,Collings Street,"Ararat, VIC 3377",142.9295452,-37.2821595,closed

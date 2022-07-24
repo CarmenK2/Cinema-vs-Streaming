@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 
   <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="/">CACE</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,13 +32,15 @@
         <li class="nav-item">
           <a class="nav-link" href="streaming">Streaming</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cinemaMap">Cinemas Map</a>
+        </li>
       </ul>
     </div>
   </nav>
 </head>
 
 <body>
-
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
@@ -47,6 +49,18 @@
             <span class="letters">Cinemas or Streaming?</span>
           </span>
         </h1>
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
     </div>
     <div class="container">
@@ -70,14 +84,15 @@
             <div class="card-body">
               <h5 class="card-title">Cinema Locations</h5>
               <p class="card-text">The map shows the cinemas and their location.</p>
-              <a href="cinema" class="btn btn-secondary">View Map</a>
+              <a href="cinemaMap" class="btn btn-secondary">View Map</a>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Cinema Capacity</h5>
               <p class="card-text">This graph shows the number of theatres, screens, and seats throughout the years.
-                The numbers include drive-ins, as well as ‘non-commercial’ screens not generally open to the public, such as those
+                The numbers include drive-ins, as well as ‘non-commercial’ screens not generally open to the public,
+                such as those
                 at army, naval and airforce bases, mining camps, film societies, colleges and universities.</p>
               <a href="cinema" class="btn btn-secondary">View Graph</a>
             </div>
@@ -85,14 +100,14 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Fees</h5>
-              <p class="card-text">This graph compares subscription fees on different streaming services vs. movie
-                ticket price.</p>
+              <p class="card-text">This scatter plot shows the price comparsion and the number of simultaneous stream between online streaming platforms and cinema.</p> 
+              
               <a href="streaming" class="btn btn-secondary">View Graph</a>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Attendance Frequency vs.Subscribers</h5>
+              <h5 class="card-title">Attendance Frequency vs. Subscribers</h5>
               <p class="card-text">This graph shows the number of movies released, streaming services
                 subscribers and attendance frequency of cinema-goers throughout the years.</p>
               <a href="streaming" class="btn btn-secondary">View Graph</a>

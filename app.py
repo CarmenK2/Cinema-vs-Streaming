@@ -47,6 +47,14 @@ def cinema():
 
     return render_template("cinema.html", mars=_data, titles = [0])
 
+@app.route("/cinemaMap")
+def cinemaMap():
+    # Find one record of data from the mongo database
+    _data = mongo.db.collection.find_one()
+    a = "static/Resources/box_office_scrape.json"
+
+    return render_template("cinemaMap.html", mars=_data, titles = [0])
+
 
 
 @app.route('/test')
@@ -81,6 +89,34 @@ def get_data2():
     # Declare the database
     db = client.Cace_db
     collection = db.cinemadata.find({}, {'_id': False})
+
+    x = []
+
+    for col in collection:
+        print(col)
+        x.append(col)
+    return jsonify(x)
+
+
+@app.route('/ah_data')
+def get_data3():
+    # Declare the database
+    db = client.Cace_db
+    collection = db.cinema2022.find({}, {'_id': False})
+
+    x = []
+
+    for col in collection:
+        print(col)
+        x.append(col)
+    return jsonify(x)
+
+
+@app.route('/ah_data_a')
+def get_data4():
+    # Declare the database
+    db = client.Cace_db
+    collection = db.cinema1948.find({}, {'_id': False, 'street' : False})
 
     x = []
 
