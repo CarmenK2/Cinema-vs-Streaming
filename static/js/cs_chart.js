@@ -18,7 +18,9 @@ var svg = d3.select("#chart-cs")
   .attr("height", svgHeight);
 
 var chartGroup = svg.append("g")
-  .attr("transform", `translate(${margin.left}, ${margin.top})`);
+  .attr("transform", `translate(${margin.left}, ${margin.top})`)
+  .text("Cinema ticket price vs streaming price");
+  
 
 // Import Data
 d3.json("/cs_data").then(function(streamingData) {
@@ -50,9 +52,11 @@ d3.json("/cs_data").then(function(streamingData) {
     chartGroup.append("g")
       .attr("transform", `translate(0, ${height})`)
       .call(bottomAxis);
+      
 
     chartGroup.append("g")
       .call(leftAxis);
+      
 
     // Step 5: Create Circles
     // ==============================
@@ -71,9 +75,9 @@ d3.json("/cs_data").then(function(streamingData) {
     // ==============================
     var toolTip = d3.tip()
       .attr("class", "tooltip")
-      .offset([100, 70])
+      .offset([50, 70])
       .html(function(d) {
-        return (`${d.Provider} <br><br> <hr> Monthly Sub Fee: $${d.Monthly_sub_fee} <br> Simultaneous streams: ${d.Simultaneous_streams}`);
+        return (`${d.Provider}<hr>Fee: $${d.Monthly_sub_fee}<br> Simultaneous streams: ${d.Simultaneous_streams}`);
       });
 
     // Step 7: Create tooltip in the chart
@@ -85,7 +89,7 @@ d3.json("/cs_data").then(function(streamingData) {
     circlesGroup.on("mouseover", function(data) {
       d3.select(this)
       .transition()
-      .duration(300)
+      .duration(1000)
       .attr("r", 22)
       .attr("fill", "red")
       toolTip.show(data, this);
@@ -94,7 +98,7 @@ d3.json("/cs_data").then(function(streamingData) {
       .on("mouseout", function(data, index) {
         d3.select(this)
         .transition()
-        .duration(300)
+        .duration(1000)
         .attr("r", 15)
         .attr("fill", "seagreen")
         toolTip.hide(data);
@@ -108,11 +112,13 @@ d3.json("/cs_data").then(function(streamingData) {
       .attr("dy", "1em")
       .attr("class", "axisText")
       .text("Number of Simultaneous Streams");
+      
 
     chartGroup.append("text")
       .attr("transform", `translate(${width / 2}, ${height + margin.top + 30})`)
       .attr("class", "axisText")
       .text("Admission fee ($)");
+      
   }).catch(function(error) {
     console.log(error);
   });
