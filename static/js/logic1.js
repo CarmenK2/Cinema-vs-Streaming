@@ -55,16 +55,16 @@ info.addTo(map);
 // Initialize an object containing icons for each layer group
 var icons = {
     OPEN_2022: L.ExtraMarkers.icon({
-      icon: "ion-android-aperture",
+      icon: "ion-android-glyphicon-cog",
       iconColor: "white",
       markerColor: "green",
       shape: "circle"
     }),
     CLOSED_2022: L.ExtraMarkers.icon({
-      icon: "ion-android-aperture",
+      icon: "ion-android-fa-spinner",
       iconColor: "white",
       markerColor: "red",
-      shape: "circle"
+      shape: "star"
     })
 };
 
@@ -82,35 +82,58 @@ d3.json("/ah_data").then(function(twentyTwo) {
 
     // Loop through the cinema_type in cinema2022
     for (var i = 0; i < twentyTwo.length; i++) {
-
-        // Create a new cinema object with properties of both cinema objects
-        //var cinema = Object.assign({}, cinemaTwentyTwo[i], cinemaTwentyTwoTwo[i]); 
-
+ 
         // Filter for "open"
-        if (!twentyTwo.filter((cinema) => cinema.cinema_type === "open")) {
+        if (opening = twentyTwo.filter(cinema => cinema.cinema_type == "open")) {
+            
             cinemaStatusCode = "OPEN_2022";
         }
 
+        // Loop through the cinema_type in cinema2022
+        for (var i = 0; i < twentyTwo.length; i++) {
+
         // Filter for "closed"
-        else {
-            cinemaStatusCode = "CLOSED_2022";
-        }
+            if (closing = twentyTwo.filter(cinema => cinema.cinema_type == "closed")){
+                cinemaStatusCode = "CLOSED_2022";
+            }
 
         // Update the cinema count
         cinemaCount[cinemaStatusCode]++;
 
-        // Map cinema latitude
-        var cinemaLat = (twentyTwo.map((cinema => cinema.latitude)))
+        // Map cinema latitude 'open'
+        var cinemaOpenLat = (opening.map(cinema => cinema.latitude))
+        console.log(cinemaOpenLat);
+
+        // Map cinema longitude 'open'
+        var cinemaOpenLong = (opening.map(cinema => cinema.longitude))
+        console.log(cinemaOpenLong);
+
+        // Map cinema latitude 'closed'
+        var cinemaClosedLat = (closing.map(cinema => cinema.latitude))
+        console.log(cinemaClosedLat);
+        
+        // Map cinema longitude 'closed'
+        var cinemaClosedLong = (closing.map(cinema => cinema.longitude))
+        console.log(cinemaClosedLong);
+
+        //var cinemaLat = (cinemaOpenLat, cinemaOpenLong)
+        //console.log(openLatLong);
+
+        // Create a new cinema object combining open and closed latitude
+        var cinemaLat = Object.assign(cinemaOpenLat, cinemaClosedLat);
         console.log(cinemaLat);
 
-        // Map cinema longitude
-        var cinemaLong = (twentyTwo.map((cinema => cinema.longitude)))
+        // Create a new cinema object combining open and closed longitude
+        var cinemaLong = Object.assign(cinemaOpenLong, cinemaClosedLong);
         console.log(cinemaLong);
 
         // Create a new marker with the appropriate icon and coordinates
-        var newMarker = L.marker([cinemaLat, cinemaLong], {
+        var newMarker = L.marker(L.latLng(parseFloat(cinemaLat), parseFloat(cinemaLong)), {
             icon: icons[cinemaStatusCode]
         });
+        // var newMarker = L.marker([cinematestlat, cinematestlong], {
+        //     icon: icons[cinemaStatusCode]
+        // });
 
         // Add the new marker to the appropriate layer
         newMarker.addTo(layers[cinemaStatusCode]); 
@@ -133,6 +156,7 @@ d3.json("/ah_data").then(function(twentyTwo) {
 
     // Call the updateLegend function, which will... update the legend!
     updateLegend(cinemaCount);
+}
 });
 
 // Update the legend's innerHTML with cinema count
