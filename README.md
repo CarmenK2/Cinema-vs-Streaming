@@ -51,11 +51,24 @@ Home
 Cinemas
 ![Cinemas](Images/ReadMe/Cinemas.png)
 
+The graph shows a drop of 18% in the number of theatres between 1984 and 1985 however the number of screens continuously went up. According to ScreenAustralia, this is due to industry transitioning from single screens to multiplexes.
+
+
 Streaming
 ![Streaming](Images/ReadMe/Streaming.png)
 
+According Screen Australia, the average cinema ticket price was $15.24 in 2021. There are plenty of fee for streaming platforms to compete for the eyeball. This chart compares the streaming provider's fee and their number of simultanceous streams. In terms of pricing, cinema ticket price is definitely competitive and not the reason cinema-goers goers will be detered by. The restriction and health protocool does excelerate the adoption of signing up streaming services while we cannot phyiscally go to cinema. Online streaming offerings and Cinemas are not muturally exclusive options. Whilst online streaming does introduce competition, but it can never replace the cinema experience. Consumers utlimatly have the benefit of choosing their interested content and make switches whenever they want.
+
+
+![BoxofficeComparision](Images/ReadMe/BoxofficeComparision.png)
+
+We asked the question - How do boxoffice movie releases compare to how often people attend the cinema per person per year and how does the number of subscribers to streaming services compare to that? The graph indicates a steady release of boxoffice movies until 2020 when Covid hit with between 800 and 1000 releases per year. Up until 2020 the frequency of how often people would go to the movies amounted to between 6-7 times per year. There was a sharp decline in 2020 due to Covid restictions and temporary shut downs due to social distancing measures. Streaming services entered the stage in 2017 since then the number of streaming service subscribers has exploded to over 30 million subscribers.
+
 Cinemas Map
 ![Cinemas Map](Images/ReadMe/CinemaMap.png)
+
+The cinemas Map is an interactive map where the user can take a look at cinema locations all over Australia that are currently open. Utilising the legend on the top hand right corner the user can also have a look at cinema locations that have been closed over time. The user can have all open and closed cinemas showing or choose to display one or the other. The counter indicates that a total of 296 are currently open, where as a total of 592 cinemas have been closed over time. 
+
 
 
 
