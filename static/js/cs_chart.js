@@ -73,7 +73,7 @@ d3.json("/cs_data").then(function(streamingData) {
       .attr("class", "tooltip")
       .offset([100, 70])
       .html(function(d) {
-        return (`${d.Provider} <br><br> <hr> Monthly Sub Fee: $${d.Monthly_sub_fee} <br> Simultaneous streams: ${d.Simultaneous_streams}`);
+        return (`${d.Provider}<hr>Fee: $${d.Monthly_sub_fee}<br> Simultaneous streams: ${d.Simultaneous_streams}`);
       });
 
     // Step 7: Create tooltip in the chart
@@ -85,7 +85,7 @@ d3.json("/cs_data").then(function(streamingData) {
     circlesGroup.on("mouseover", function(data) {
       d3.select(this)
       .transition()
-      .duration(300)
+      .duration(1000)
       .attr("r", 22)
       .attr("fill", "red")
       toolTip.show(data, this);
@@ -94,7 +94,7 @@ d3.json("/cs_data").then(function(streamingData) {
       .on("mouseout", function(data, index) {
         d3.select(this)
         .transition()
-        .duration(300)
+        .duration(1000)
         .attr("r", 15)
         .attr("fill", "seagreen")
         toolTip.hide(data);
