@@ -12,6 +12,7 @@ var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/
 var layers = {
     OPEN_2022: new L.LayerGroup(),
     CLOSED_2022: new L.LayerGroup()
+
 };
 
 // Create the map with our layers
@@ -99,11 +100,11 @@ d3.json("/ah_data").then(function(twentyTwo) {
         cinemaCount[cinemaStatusCode]++;
 
         // Map cinema latitude
-        var cinemaLat = twentyTwo.map((cinema => cinema.latitude))
+        var cinemaLat = (twentyTwo.map((cinema => cinema.latitude)))
         console.log(cinemaLat);
 
         // Map cinema longitude
-        var cinemaLong = twentyTwo.map((cinema => cinema.longitude))
+        var cinemaLong = (twentyTwo.map((cinema => cinema.longitude)))
         console.log(cinemaLong);
 
         // Create a new marker with the appropriate icon and coordinates
