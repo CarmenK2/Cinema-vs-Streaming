@@ -52,7 +52,7 @@ h3{
 .tooltip {
   position: absolute;
   width: 150px;
-  height: 150px;
+  height: 100px;
 
   padding: 2px;
   padding-top: 8px;

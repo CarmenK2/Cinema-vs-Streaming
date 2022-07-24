@@ -7,11 +7,9 @@
 * Aline Hornoff
 
 ## Overview:
-Are the good old cinemas still relevant in Australia today?
+Back in the day if people wanted to watch the latest movie everyone else was talking about, they go to the cinema with their family or friends. In case they did not make it on the movie schedule, they had to wait for it to be available in their nearest video rental shop.
 
-In times of instant online entertainment availability through streaming services, covid and social distancing are the good all traditional brick and mortar cinemas still relevant? Who attends cinemas and who uses streaming services? What value does a cinema goer get for their money compared to paying for a streaming service? 
-
-This project is looking at ....
+Nowadays due to technological advancement we have the option to use streaming services in the comfort of our own homes to watch movies. This option gained more popularity when Covid happened as most people chose to stay home and also restrictions were put in place on public spaces. This made us ask the question, are cinemas still relevant?
 
 ## Data Sources
 * Netflix Data: https://ir.netflix.net/financials/quarterly-earnings/default.aspx
@@ -21,6 +19,7 @@ This project is looking at ....
 * Netflix statistics: https://www.businessofapps.com/data/netflix-statistics/
 * Australian Bureau of Statistics: https://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/4102.0Main+Features40Jun+2011
 * https://takeatumble.com.au/insights/lifestyle/video-streaming-in-australia-statistics/
+* Cinema Treasures: http://cinematreasures.org/theaters/australia?status=all
 
 
 ## Data Story
@@ -39,6 +38,27 @@ This project is looking at ....
 * Create Visualisations
 * Create HTML/CSS
 * Create presentation
+
+## Conclusion
+It seems that the streaming services did not have much effect on people's preference on going to movies. Data shows that cinemas available and movie-goers have been steady until Covid happened. The pandemic is the main factor that affected the number of cinemas being open and people attending due to the protocols and restrictions put in place by the government.
+
+With the easing of restrictions, the numbers have gone up compared to 2020 however due to the uncertainty we have with further effects of Covid, we cannot confirm if it would continuously go up the same level as pre-Covid.
+
+## Output
+Home
+![Home](Images/ReadMe/Home.png)
+
+Cinemas
+![Cinemas](Images/ReadMe/Cinemas.png)
+
+Streaming
+![Streaming](Images/ReadMe/Streaming.png)
+
+Cinemas Map
+![Cinemas Map](Images/ReadMe/CinemaMap.png)
+
+
+
 
 
 
