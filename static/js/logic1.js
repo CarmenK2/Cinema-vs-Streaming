@@ -86,85 +86,99 @@ d3.json("/ah_data").then(function(twentyTwo) {
     twentyTwo.forEach(function(data){
         cinematestlat = data.lat
         cinematestlong= data.long
-        console.log(cinematestlong);
+        //console.log(cinematestlong.dt);
     })
     
+    //console.log(twentyTwo.length);
    
     // Initialize a cinemaStatusCode, which will be used as a key to access the appropriate layers, icons, and cinema count for layer group
     var cinemaStatusCode;
 
+    var openMarkers = [];
+
     // Loop through the cinema_type in cinema2022
     for (var i = 0; i < twentyTwo.length; i++) {
  
-        // Filter for "open"
-        if (opening = twentyTwo.filter(cinema => cinema.cinema_type == "open")) {
-            
-            cinemaStatusCode = "OPEN_2022";
-        }
 
         // Loop through the cinema_type in cinema2022
         for (var i = 0; i < twentyTwo.length; i++) {
+            
 
-        // Filter for "closed"
-            if (closing = twentyTwo.filter(cinema => cinema.cinema_type == "closed")){
-                cinemaStatusCode = "CLOSED_2022";
-            }
+            // Filter for "open"
+            opening = twentyTwo.filter(cinema => cinema.cinema_type == "open")
+            cinemaStatusCode = "OPEN_2022";
 
-        // Update the cinema count
-        cinemaCount[cinemaStatusCode]++;
+            // Filter for "closed"
+            closing = twentyTwo.filter(cinema => cinema.cinema_type == "closed")
+            cinemaStatusCode = "CLOSED_2022";
+            
+            // Update the cinema count
+            cinemaCount["OPEN_2022"] = opening.length
+            cinemaCount["CLOSED_2022"] = closing.length
+            //console.log(cinemaCount)
 
         // Map cinema latitude 'open'
         var cinemaOpenLat = (opening.map(cinema => cinema.latitude))
-        console.log(cinemaOpenLat);
+        //console.log(cinemaOpenLat);
 
         // Map cinema longitude 'open'
         var cinemaOpenLong = (opening.map(cinema => cinema.longitude))
-        console.log(cinemaOpenLong);
+        //console.log(cinemaOpenLong);
 
         // Map cinema latitude 'closed'
         var cinemaClosedLat = (closing.map(cinema => cinema.latitude))
-        console.log(cinemaClosedLat);
+        //console.log(cinemaClosedLat);
         
         // Map cinema longitude 'closed'
         var cinemaClosedLong = (closing.map(cinema => cinema.longitude))
-        console.log(cinemaClosedLong);
+        //console.log(cinemaClosedLong);
 
         //var cinemaLat = (cinemaOpenLat, cinemaOpenLong)
         //console.log(openLatLong);
 
         // Create a new cinema object combining open and closed latitude
-        var cinemaLat = Object.assign(cinemaOpenLat, cinemaClosedLat);
-        console.log(cinemaLat);
+        //console.log(cinemaOpenLat[i], i);
+        //var openLatlng = Object.assign(cinemaOpenLat[i],cinemaOpenLong[i]);
+        //console.log(openLatlng);
 
         // Create a new cinema object combining open and closed longitude
-        var cinemaLong = Object.assign(cinemaOpenLong, cinemaClosedLong);
-        console.log(cinemaLong);
+        //var cinemaLong = Object.assign(cinemaOpenLong[i]);
+        //console.log(cinemaLong);
 
-        // Create a new marker with the appropriate icon and coordinates
-        var newMarker = L.marker(L.latLng(parseFloat(cinemaLat), parseFloat(cinemaLong)), {
-            icon: icons[cinemaStatusCode]
-        });
-        // var newMarker = L.marker([cinematestlat, cinematestlong], {
-        //     icon: icons[cinemaStatusCode]
-        // });
+            var lat = twentyTwo[i].latitude;
+            var lng = twentyTwo[i].longitude;
+        
 
-        // Add the new marker to the appropriate layer
-        newMarker.addTo(layers[cinemaStatusCode]); 
+            // Create a new marker with the appropriate icon and coordinates
+            try { 
+                var newMarker = L.marker(L.latLng(parseFloat(lat),parseFloat(lng)), {
+                    icon: icons[cinemaStatusCode]
+                });
+            } catch (e) {
+                console.log(e)
+            }
+       
+            // var newMarker = L.marker([cinematestlat, cinematestlong], {
+            //     icon: icons[cinemaStatusCode]
+            // });
 
-        // Map cinema name
-        var cinemaName = twentyTwo.map((cinema => cinema.cinema_name))
-        console.log(cinemaName);
+            // Add the new marker to the appropriate layer
+            newMarker.addTo(layers[cinemaStatusCode]); 
 
-        // Map cinema name
-        var cinemaStreet = twentyTwo.map((cinema => cinema.street))
-        console.log(cinemaStreet);
+            // Map cinema name
+            var cinemaName = twentyTwo.map((cinema => cinema.cinema_name))
+            //console.log(cinemaName);
 
-        // Map cinema name
-        var cinemaSuburb = twentyTwo.map((cinema => cinema.suburb))
-        console.log(cinemaSuburb);
+            // Map cinema name
+            var cinemaStreet = twentyTwo.map((cinema => cinema.street))
+            //console.log(cinemaStreet);
+
+            // Map cinema name
+            var cinemaSuburb = twentyTwo.map((cinema => cinema.suburb))
+            //console.log(cinemaSuburb);
 
         // Bind a popup to the marker that will  display on click. This will be rendered as HTML
-        newMarker.bindPopup(cinemaName + "<br> Street: " + cinemaStreet + "<br> Suburb:" + cinemaSuburb);
+        newMarker.bindPopup(cinemaName[i] + "<br> Street: " + cinemaStreet[i] + "<br> Suburb:" + cinemaSuburb[i]);
     }
 
     // Call the updateLegend function, which will... update the legend!
