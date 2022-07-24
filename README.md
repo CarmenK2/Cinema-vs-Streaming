@@ -46,16 +46,16 @@ With the easing of restrictions, the numbers have gone up compared to 2020 howev
 
 ## Output
 Home
-![Home](Images/ReadMe/Project_Outline.png)
+![Home](Images/ReadMe/Home.png)
 
 Cinemas
-![Cinemas](Images/ReadMe/Project_Outline.png)
+![Cinemas](Images/ReadMe/Cinemas.png)
 
 Streaming
-![Streaming](Images/ReadMe/Project_Outline.png)
+![Streaming](Images/ReadMe/Streaming.png)
 
 Cinemas Map
-![Cinemas Map](Images/ReadMe/Project_Outline.png)
+![Cinemas Map](Images/ReadMe/CinemaMap.png)
 
 
 
