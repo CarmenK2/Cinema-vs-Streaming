@@ -33,6 +33,11 @@ def cinema():
 
     return render_template("cinema.html")
 
+@app.route("/cinemaMap")
+def cinemaMap():
+
+    return render_template("cinemaMap.html")
+
 
 @app.route('/test')
 def get_data():
@@ -66,6 +71,32 @@ def get_data2():
     # Declare the database
     db = client.Cace_db
     collection = db.cinemadata.find({}, {'_id': False})
+
+    x = []
+
+    for col in collection:
+        print(col)
+        x.append(col)
+    return jsonify(x)
+
+@app.route('/ah_data')
+def get_data3():
+    # Declare the database
+    db = client.Cace_db
+    collection = db.cinema2022.find({}, {'_id': False})
+
+    x = []
+
+    for col in collection:
+        print(col)
+        x.append(col)
+    return jsonify(x)
+
+@app.route('/ah_data_a')
+def get_data4():
+    # Declare the database
+    db = client.Cace_db
+    collection = db.cinema1948.find({}, {'_id': False})
 
     x = []
 
