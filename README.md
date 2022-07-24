@@ -19,6 +19,7 @@ Nowadays due to technological advancement we have the option to use streaming se
 * Netflix statistics: https://www.businessofapps.com/data/netflix-statistics/
 * Australian Bureau of Statistics: https://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/4102.0Main+Features40Jun+2011
 * https://takeatumble.com.au/insights/lifestyle/video-streaming-in-australia-statistics/
+* Cinema Treasures: http://cinematreasures.org/theaters/australia?status=all
 
 
 ## Data Story
