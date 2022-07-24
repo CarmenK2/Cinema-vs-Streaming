@@ -1,6 +1,7 @@
 body{
-  background-color: dimgray;
+  background-color: black;
 }
+
 .container{
   background-color: white;
   margin-top: 50px;
@@ -13,7 +14,10 @@ p {
   text-align: justify;
   margin-left: 30px;
   }
-
+.btn-secondary{
+  background-color: #a0353a;
+  color: white;
+}
 .card-title{
   color: rgb(78, 93, 119);
   font-family: sans-serif;
@@ -26,6 +30,10 @@ p {
   font-family: sans-serif;
   font-size: 20px;
   text-align: justify;
+}
+
+h1{
+  color: white;
 }
 h2{
   color: rgb(78, 93, 119);
@@ -89,10 +97,121 @@ h3{
     transition: fill 0.3s ease-out;
     text-anchor: middle;
   }
+.navbar-expand-lg{
+  background-color: #a0353a;
+}
+.navbar .navbar-brand {
+  color: white;
+}
+li{
+  color: white;
+}
+.jumbotron{
+  background-color: #a0353a;
+}
+.nav-link:hover{
+  background-color:#4b0408;
+}
+.nav-link:focus{
+  font-weight: bold;
+}
 
-  .nav-link:hover{
-    background-color:rgb(78, 93, 119);
-  }
+.circles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li{
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgb(218, 113, 113);
+  animation: animate 25s linear infinite;
+  bottom: -200px;
+  
+}
+
+.circles li:nth-child(1){
+  left: 10%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+  left: 90%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+  left: 10%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+  left: 5%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+  left: 85%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+  left: 5%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+  left: 15%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+  left: 10%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+  left: 95%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
 
   @media(max-width: 992px) {
     .navbar-expand-lg {
@@ -156,4 +275,19 @@ body,
 
 .legend .out-of-order {
   color: #007dff;
+}
+
+@keyframes animate {
+
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+  }
+
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+  }
 }
