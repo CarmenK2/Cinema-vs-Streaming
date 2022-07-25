@@ -7,8 +7,6 @@ from flask import jsonify
 import json
 from bson.json_util import ObjectId
 
-
-
 # Create an instance of Flask
 app = Flask(__name__)
 
@@ -19,42 +17,26 @@ conn = 'mongodb://localhost:27017'
 client = pymongo.MongoClient(conn)
 
 
-# Route to render index.html template using data from Mongo
+# Route to render index.html template
 @app.route("/")
 def home():
-
-    # Find one record of data from the mongo database
-    _data = mongo.db.collection.find_one()
-    a = "static/Resources/box_office_scrape.json"
-
-
     # Return template and data
-    return render_template("index.html", mars=_data, titles = [0])
+    return render_template("index.html")
 
 @app.route("/streaming")
 def streaming():
-    # Find one record of data from the mongo database
-    _data = mongo.db.collection.find_one()
-    a = "static/Resources/box_office_scrape.json"
 
     return render_template("streaming.html")
 
 @app.route("/cinema")
 def cinema():
-    # Find one record of data from the mongo database
-    _data = mongo.db.collection.find_one()
-    a = "static/Resources/box_office_scrape.json"
 
-    return render_template("cinema.html", mars=_data, titles = [0])
+    return render_template("cinema.html")
 
 @app.route("/cinemaMap")
 def cinemaMap():
-    # Find one record of data from the mongo database
-    _data = mongo.db.collection.find_one()
-    a = "static/Resources/box_office_scrape.json"
 
-    return render_template("cinemaMap.html", mars=_data, titles = [0])
-
+    return render_template("cinemaMap.html")
 
 
 @app.route('/test')
@@ -97,7 +79,6 @@ def get_data2():
         x.append(col)
     return jsonify(x)
 
-
 @app.route('/ah_data')
 def get_data3():
     # Declare the database
@@ -111,12 +92,11 @@ def get_data3():
         x.append(col)
     return jsonify(x)
 
-
 @app.route('/ah_data_a')
 def get_data4():
     # Declare the database
     db = client.Cace_db
-    collection = db.cinema1948.find({}, {'_id': False, 'street' : False})
+    collection = db.cinema1948.find({}, {'_id': False})
 
     x = []
 
@@ -124,8 +104,6 @@ def get_data4():
         print(col)
         x.append(col)
     return jsonify(x)
-    
-
 
 
 if __name__ == "__main__":
