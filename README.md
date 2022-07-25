@@ -67,7 +67,7 @@ We asked the question - How do boxoffice movie releases compare to how often peo
 Cinemas Map
 ![Cinemas Map](Images/ReadMe/CinemaMap.png)
 
-The cinemas Map is an interactive map where the user can take a look at cinema locations all over Australia that are currently open. Utilising the legend on the top hand right corner the user can also have a look at cinema locations that have been closed over time. The user can have all open and closed cinemas showing or choose to display one or the other. The counter indicates that a total of 296 are currently open, where as a total of 592 cinemas have been closed over time. 
+The cinemas Map is an interactive map where the user can take a look at cinema locations all over Australia that are currently open or have been closed down. 
 
 
 
